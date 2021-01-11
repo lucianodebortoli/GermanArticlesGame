@@ -214,7 +214,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     }
 
     private void showCorrectMsg() {
-        userMessageTV.setText("Correct");
+        String msg = "Correct. Answer was " + currentEntry.getArticle() + " " + currentEntry.getNoun();
+        userMessageTV.setText(msg);
         userMessageTV.setTextColor(getResources().getColor(R.color.colorCorrect));
     }
 
