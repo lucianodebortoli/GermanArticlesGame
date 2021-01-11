@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="articles">
+        <item>Select Article</item>
+        <item>der</item>
+        <item>das</item>
+        <item>die</item>
+        <item>den</item>
+        <item>dem</item>
+    </string-array>
+</resources>
