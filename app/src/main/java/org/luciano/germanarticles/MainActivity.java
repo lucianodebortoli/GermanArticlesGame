@@ -14,8 +14,6 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -30,12 +28,18 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private TextView nounTV;
     private TextView scoreTV;
     private TextView userMessageTV;
+    private TextView levelTv;
     private Toolbar toolbar;
     private Button submitButton;
     private Spinner dropdown;
     private String dataPath = "data.csv";
     private String LOG_TAG = "article_log";
     private List<Entry> entries= new ArrayList<>();
+    private int[] levels;
+    private int[] ansPerLevels;
+    private int currentLevel;
+    private int currentAnsPerLevel;
+    private int currentCorrectAnsPerLevel;
     private Entry currentEntry;
     private String articleSelected;
     private Float score = 1.0f;
@@ -51,12 +55,20 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         startApp();
     }
 
-
     private void startUI() {
         initActionButton();
         findGlobalViews();
         initSpinner();
         initSubmitButton();
+        initLevels();
+    }
+
+    private void initLevels() {
+        levels = new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
+        ansPerLevels = new int[] {3, 5, 8, 11, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584};
+        currentLevel = levels[0];
+        currentAnsPerLevel = ansPerLevels[0];
+        currentCorrectAnsPerLevel = 0;
     }
 
 
@@ -68,15 +80,14 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         });
     }
 
-
     private void findGlobalViews() {
         nounTV = findViewById(R.id.nounTV);
         toolbar = findViewById(R.id.toolbar);
         scoreTV = findViewById(R.id.scoreTV);
         submitButton = findViewById(R.id.submit_button);
         userMessageTV = findViewById(R.id.user_message);
+        levelTv = findViewById(R.id.levelTV);
     }
-
 
     private void startApp() {
         loadData(dataPath);
@@ -88,12 +99,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         nounTV.setText(currentEntry.getNoun());
     }
 
-
     private void loadData(String dataPath)  {
-
         InputStream inputStream = getResources().openRawResource(R.raw.data);
         BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8));
-
         String line = "";
         try {
             String[] headers = reader.readLine().split(",");
@@ -132,10 +140,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         else {
             validateChoice();
             updateScore();
-            showNext();
+            updateLevel();
+            showNextEntry();
         }
     }
-
 
     private void initActionButton() {
         setSupportActionBar(toolbar);
@@ -149,15 +157,25 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         });
     }
 
-
     private void updateScore() {
         score =  (float) Math.round(correctAnswers / (float) answers * 100) / 100;
         scoreTV.setText((Math.round(100*score))+" %");
     }
 
+    private void updateLevel() {
+        if (currentCorrectAnsPerLevel>=currentAnsPerLevel)
+            nextLevel();
+        String levelText = "Level "+currentLevel+" ("+currentCorrectAnsPerLevel+"/"+currentAnsPerLevel+")";
+        levelTv.setText(levelText);
+    }
 
-    private void showNext() {
-        // update noun
+    private void nextLevel() {
+        currentLevel += 1;
+        currentAnsPerLevel = ansPerLevels[currentLevel-1];
+        currentCorrectAnsPerLevel = 0;
+    }
+
+    private void showNextEntry() {
         currentEntry = getRandomEntry();
         nounTV.setText(currentEntry.getNoun());
     }
@@ -171,17 +189,34 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private void validateChoice() {
         answers += 1;
         if (articleSelected.equals(currentEntry.getArticle())) {
-            userMessageTV.setText("Correct");
-            userMessageTV.setTextColor(getResources().getColor(R.color.colorCorrect));
-            correctAnswers +=1;
+            incrementCounters();
+            showCorrectMsg();
         }
         else {
-            String msg = "Incorrect. Answer was " + currentEntry.getArticle() + " " + currentEntry.getNoun();
-            userMessageTV.setText(msg);
-            userMessageTV.setTextColor(getResources().getColor(R.color.colorIncorrect));
+            shotIncorrectMsg();
+            resetCounters();
         }
     }
 
+    private void resetCounters() {
+        currentCorrectAnsPerLevel = 0;
+    }
+
+    private void incrementCounters() {
+        correctAnswers +=1;
+        currentCorrectAnsPerLevel +=1;
+    }
+
+    private void shotIncorrectMsg() {
+        String msg = "Incorrect. Answer was " + currentEntry.getArticle() + " " + currentEntry.getNoun();
+        userMessageTV.setText(msg);
+        userMessageTV.setTextColor(getResources().getColor(R.color.colorIncorrect));
+    }
+
+    private void showCorrectMsg() {
+        userMessageTV.setText("Correct");
+        userMessageTV.setTextColor(getResources().getColor(R.color.colorCorrect));
+    }
 
     @Override
     public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
