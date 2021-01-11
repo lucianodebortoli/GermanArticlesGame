@@ -176,7 +176,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             correctAnswers +=1;
         }
         else {
-            userMessageTV.setText("Incorrect. Answer was " + currentEntry.getArticle());
+            String msg = "Incorrect. Answer was " + currentEntry.getArticle() + " " + currentEntry.getNoun();
+            userMessageTV.setText(msg);
             userMessageTV.setTextColor(getResources().getColor(R.color.colorIncorrect));
         }
     }
