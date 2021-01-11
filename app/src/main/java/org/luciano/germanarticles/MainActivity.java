@@ -168,9 +168,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         score =  Math.round(100*(float) correctAnswers / answers) ;
         scoreTV.setText("Score "+score+" %");
         scoreBar.setProgress(score);
-        scoreBar.getProgressDrawable().setColorFilter
-                (getResources().getColor(R.color.colorScore),
-                        android.graphics.PorterDuff.Mode.SRC_IN);
+        //scoreBar.getProgressDrawable().setColorFilter(getResources().getColor(R.color.colorScore),android.graphics.PorterDuff.Mode.SRC_IN);
     }
 
     private void updateLevel() {
@@ -239,12 +237,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         articleSelected = adapterView.getItemAtPosition(i).toString();
     }
 
-
     @Override
     public void onNothingSelected(AdapterView<?> adapterView) {
         Log.d(LOG_TAG, "Nothing Selected");
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
