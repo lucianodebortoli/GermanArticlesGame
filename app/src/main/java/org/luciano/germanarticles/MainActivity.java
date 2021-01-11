@@ -12,6 +12,7 @@ import android.view.MenuItem;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.TextView;
 import java.io.BufferedReader;
@@ -28,8 +29,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private TextView nounTV;
     private TextView scoreTV;
     private TextView userMessageTV;
-    private TextView levelTv;
+    private TextView levelTV;
+    private TextView correctTV;
     private Toolbar toolbar;
+    private ProgressBar progressBar;
+    private ProgressBar scoreBar;
     private Button submitButton;
     private Spinner dropdown;
     private String dataPath = "data.csv";
@@ -42,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private int currentCorrectAnsPerLevel;
     private Entry currentEntry;
     private String articleSelected;
-    private Float score = 1.0f;
+    private int  score = 0;
     private int answers = 0;
     private int correctAnswers = 0;
 
@@ -86,11 +90,14 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         scoreTV = findViewById(R.id.scoreTV);
         submitButton = findViewById(R.id.submit_button);
         userMessageTV = findViewById(R.id.user_message);
-        levelTv = findViewById(R.id.levelTV);
+        levelTV = findViewById(R.id.levelTV);
+        correctTV = findViewById(R.id.correctTV);
+        progressBar = findViewById(R.id.progressBar);
+        scoreBar = findViewById(R.id.scoreBar);
     }
 
     private void startApp() {
-        loadData(dataPath);
+        loadData();
         initQuery();
     }
 
@@ -99,7 +106,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         nounTV.setText(currentEntry.getNoun());
     }
 
-    private void loadData(String dataPath)  {
+    private void loadData()  {
         InputStream inputStream = getResources().openRawResource(R.raw.data);
         BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8));
         String line = "";
@@ -151,22 +158,28 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Unavailable", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
     }
 
     private void updateScore() {
-        score =  (float) Math.round(correctAnswers / (float) answers * 100) / 100;
-        scoreTV.setText((Math.round(100*score))+" %");
+        score =  Math.round(100*(float) correctAnswers / answers) ;
+        scoreTV.setText("Score "+score+" %");
+        scoreBar.setProgress(score);
+        scoreBar.getProgressDrawable().setColorFilter
+                (getResources().getColor(R.color.colorScore),
+                        android.graphics.PorterDuff.Mode.SRC_IN);
     }
 
     private void updateLevel() {
         if (currentCorrectAnsPerLevel>=currentAnsPerLevel)
             nextLevel();
         String levelText = "Level "+currentLevel+" ("+currentCorrectAnsPerLevel+"/"+currentAnsPerLevel+")";
-        levelTv.setText(levelText);
+        levelTV.setText(levelText);
+        float levelProgress = 100*(float)currentCorrectAnsPerLevel/currentAnsPerLevel;
+        progressBar.setProgress((int)levelProgress);
     }
 
     private void nextLevel() {
@@ -208,15 +221,17 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     }
 
     private void shotIncorrectMsg() {
-        String msg = "Incorrect. Answer was " + currentEntry.getArticle() + " " + currentEntry.getNoun();
+        correctTV.setText("Incorrect");
+        correctTV.setTextColor(getResources().getColor(R.color.colorIncorrect));
+        String msg = "Answer was " + currentEntry.getArticle() + " " + currentEntry.getNoun();
         userMessageTV.setText(msg);
-        userMessageTV.setTextColor(getResources().getColor(R.color.colorIncorrect));
     }
 
     private void showCorrectMsg() {
-        String msg = "Correct. Answer was " + currentEntry.getArticle() + " " + currentEntry.getNoun();
+        correctTV.setText("Correct");
+        correctTV.setTextColor(getResources().getColor(R.color.colorCorrect));
+        String msg = "Answer was " + currentEntry.getArticle() + " " + currentEntry.getNoun();
         userMessageTV.setText(msg);
-        userMessageTV.setTextColor(getResources().getColor(R.color.colorCorrect));
     }
 
     @Override
