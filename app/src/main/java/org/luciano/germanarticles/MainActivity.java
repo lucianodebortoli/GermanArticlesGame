@@ -31,10 +31,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private TextView userMessageTV;
     private TextView levelTV;
     private TextView correctTV;
+    private TextView translationTV;
     private Toolbar toolbar;
     private ProgressBar progressBar;
     private ProgressBar scoreBar;
     private Button submitButton;
+    private Button derButton, dieButton, dasButton;
     private Spinner dropdown;
     private String dataPath = "data.csv";
     private String LOG_TAG = "article_log";
@@ -44,6 +46,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private int currentLevel;
     private int currentAnsPerLevel;
     private int currentCorrectAnsPerLevel;
+    private String currentAns;
     private Entry currentEntry;
     private String articleSelected;
     private int  score = 0;
@@ -62,7 +65,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private void startUI() {
         initActionButton();
         findGlobalViews();
-        initSpinner();
+        //initSpinner();
         initSubmitButton();
         initLevels();
     }
@@ -82,6 +85,27 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 buttonClicked();
             }
         });
+
+        derButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                currentAns = "Der";
+                buttonClicked();
+            }
+        });
+
+        dasButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                currentAns = "Das";
+                buttonClicked();
+            }
+        });
+
+        dieButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                currentAns = "Die";
+                buttonClicked();
+            }
+        });
     }
 
     private void findGlobalViews() {
@@ -94,16 +118,15 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         correctTV = findViewById(R.id.correctTV);
         progressBar = findViewById(R.id.progressBar);
         scoreBar = findViewById(R.id.scoreBar);
+        derButton = findViewById(R.id.derButton);
+        dasButton = findViewById(R.id.dasButton);
+        dieButton = findViewById(R.id.dieButton);
+        translationTV = findViewById(R.id.translationTV);
     }
 
     private void startApp() {
         loadData();
-        initQuery();
-    }
-
-    private void initQuery() {
-        currentEntry = getRandomEntry();
-        nounTV.setText(currentEntry.getNoun() + " ("+ currentEntry.getTranslation()+")");
+        showNextEntry();
     }
 
     private void loadData()  {
@@ -130,6 +153,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         }
     }
 
+    private void showNextEntry() {
+        currentEntry = getRandomEntry();
+        nounTV.setText(currentEntry.getNoun());
+        translationTV.setText(currentEntry.getTranslation());
+    }
+
     private void initSpinner() {
         // Spinner:
         dropdown = findViewById(R.id.spinner);
@@ -142,15 +171,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     @SuppressLint("ShowToast")
     private void buttonClicked() {
-        if (articleSelected.equals("Select Article")){
-            userMessageTV.setText("Please select article from list");
-        }
-        else {
-            validateChoice();
-            updateScore();
-            updateLevel();
-            showNextEntry();
-        }
+        //if (articleSelected.equals("Select Article")){userMessageTV.setText("Please select article from list");}
+        validateChoice();
+        updateScore();
+        updateLevel();
+        showNextEntry();
     }
 
     private void initActionButton() {
@@ -187,11 +212,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         currentCorrectAnsPerLevel = 0;
     }
 
-    private void showNextEntry() {
-        currentEntry = getRandomEntry();
-        nounTV.setText(currentEntry.getNoun() + " ("+ currentEntry.getTranslation()+")");
-    }
-
     private Entry getRandomEntry() {
         Random rand = new Random();
         return entries.get(rand.nextInt(entries.size()));
@@ -200,7 +220,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     @SuppressLint("ResourceAsColor")
     private void validateChoice() {
         answers += 1;
-        if (articleSelected.equals(currentEntry.getArticle())) {
+        if (currentAns.equals(currentEntry.getArticle())) {
             incrementCounters();
             showCorrectMsg();
         }
