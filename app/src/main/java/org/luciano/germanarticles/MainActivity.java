@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     private void initQuery() {
         currentEntry = getRandomEntry();
-        nounTV.setText(currentEntry.getNoun());
+        nounTV.setText(currentEntry.getNoun() + " ("+ currentEntry.getTranslation()+")");
     }
 
     private void loadData()  {
@@ -119,8 +119,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                     continue;
                 Entry entry = new Entry();
                 entry.setID(tokens[0]);
-                entry.setArticle(tokens[1]);
-                entry.setNoun(tokens[2]);
+                entry.setTranslation(tokens[1]);
+                entry.setArticle(tokens[2]);
+                entry.setNoun(tokens[3]);
                 entries.add(entry);
             }
         } catch (IOException e) {
@@ -188,7 +189,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     private void showNextEntry() {
         currentEntry = getRandomEntry();
-        nounTV.setText(currentEntry.getNoun());
+        nounTV.setText(currentEntry.getNoun() + " ("+ currentEntry.getTranslation()+")");
     }
 
     private Entry getRandomEntry() {
