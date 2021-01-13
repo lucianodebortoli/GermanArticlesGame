@@ -55,7 +55,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="Noun"
-            android:textSize="24sp"
+            android:textSize="28sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textview_first" />
@@ -64,7 +64,7 @@
             android:id="@+id/translationTV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="8dp"
             android:text="English"
             android:textSize="20sp"
             android:textStyle="italic"
@@ -102,7 +102,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="64dp"
-            android:background="@drawable/rounded_button"
+            android:background="@drawable/der_button"
             android:text="DER"
             app:layout_constraintEnd_toStartOf="@+id/dasButton"
             app:layout_constraintStart_toStartOf="parent"
@@ -113,7 +113,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="64dp"
-            android:background="@drawable/rounded_button"
+            android:background="@drawable/das_button"
             android:text="DAS"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.501"
@@ -125,7 +125,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="64dp"
-            android:background="@drawable/rounded_button"
+            android:background="@drawable/die_button"
             android:text="DIE"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/dasButton"
@@ -154,18 +154,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/divider2" />
 
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="65dp"
-            android:layout_height="17dp"
-            android:layout_marginTop="16dp"
-            android:foregroundGravity="top"
-            android:text="German"
-            android:textSize="30sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/levelTV"
@@ -265,16 +253,17 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
+        android:layout_height="24dp"
         android:background="?attr/colorPrimary"
         app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar_bottom"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="?attr/colorPrimary"
+        android:layout_height="24dp"
         android:layout_gravity="bottom"
+        android:background="?attr/colorPrimary"
+        android:minHeight="20dp"
         app:popupTheme="@style/AppTheme.PopupOverlay" />
 
 
