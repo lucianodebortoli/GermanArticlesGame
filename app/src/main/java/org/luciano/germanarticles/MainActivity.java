@@ -12,8 +12,10 @@ import android.view.MenuItem;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.ProgressBar;
 import android.widget.Spinner;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -40,6 +42,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private Button submitButton;
     private Button derButton, dieButton, dasButton;
     private Spinner dropdown;
+    private Switch languageSwitch;
     private String dataPath = "data.csv";
     private String LOG_TAG = "article_log";
     private List<Entry> entries= new ArrayList<>();
@@ -54,6 +57,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private int  score = 0;
     private int answers = 0;
     private int correctAnswers = 0;
+    private String language = "en";
 
 
     @Override
@@ -70,6 +74,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         //initSpinner();
         initSubmitButton();
         initLevels();
+        initSwitch();
     }
 
     private void initLevels() {
@@ -124,6 +129,28 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         dasButton = findViewById(R.id.dasButton);
         dieButton = findViewById(R.id.dieButton);
         translationTV = findViewById(R.id.translationTV);
+        languageSwitch = findViewById(R.id.languageSwitch);
+    }
+
+    private void initSwitch() {
+        languageSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked)  {
+                if (isChecked)
+                    language = "es";
+                else
+                    language = "en";
+                refreshUI();
+            }
+        });
+    }
+
+    private void refreshUI() {
+        nounTV.setText(currentEntry.getNoun());
+        String word = null;
+        if (language.equals("en")) { word = currentEntry.getTranslation(); }
+        else if (language.equals("es")) { word = currentEntry.getTraduccion(); }
+        translationTV.setText("("+ word +")");
     }
 
     private void startApp() {
@@ -143,10 +170,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 if (tokens.length != headers.length)
                     continue;
                 Entry entry = new Entry();
-                entry.setID(tokens[0]);
-                entry.setTranslation(tokens[1]);
-                entry.setArticle(tokens[2]);
-                entry.setNoun(tokens[3]);
+                entry.setID(tokens[Entry.columns.COLUMN_ID.ordinal()]);
+                entry.setArticle(tokens[Entry.columns.COLUMN_ARTICLE.ordinal()]);
+                entry.setNoun(tokens[Entry.columns.COLUMN_NOUN.ordinal()]);
+                entry.setTranslation(tokens[Entry.columns.COLUMN_TRANSLATION.ordinal()]);
+                entry.setTraduccion(tokens[Entry.columns.COLUMN_TRADUCCION.ordinal()]);
                 entries.add(entry);
             }
         } catch (IOException e) {
@@ -157,8 +185,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     private void showNextEntry() {
         currentEntry = getRandomEntry();
-        nounTV.setText(currentEntry.getNoun());
-        translationTV.setText(currentEntry.getTranslation());
+        refreshUI();
     }
 
     private void initSpinner() {
