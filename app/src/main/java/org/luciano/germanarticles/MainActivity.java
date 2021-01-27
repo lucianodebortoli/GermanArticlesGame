@@ -15,6 +15,8 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -206,10 +208,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         progressBar.setProgress((int)levelProgress);
     }
 
+    @SuppressLint("ShowToast")
     private void nextLevel() {
         currentLevel += 1;
         currentAnsPerLevel = ansPerLevels[currentLevel-1];
         currentCorrectAnsPerLevel = 0;
+        Toast.makeText(getApplicationContext(),"Leveled Up to Lv"+currentLevel, Toast.LENGTH_LONG);
     }
 
     private Entry getRandomEntry() {

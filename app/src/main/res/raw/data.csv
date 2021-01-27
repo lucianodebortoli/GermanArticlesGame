@@ -1,1989 +1,629 @@
 ,Translation,Article,Noun
-0, time ,Die,Zeit
-1, man ,Der,Mann
-2, hand ,Die,Hand
-3, day ,Der,Tag
-4, way ,Der,Weg
-5, eye ,Das,Auge
-6, thing ,Das,Ding
-7, head ,Der,Kopf
-8, year ,Das,Jahr
-9, room ,Das,Zimmer
-10, door ,Die,Tür
-11, woman ,Die,Frau
-12, face ,Das,Gesicht
-13, mother ,Die,Mutter
-14, people ,Das,Volk
-15, night ,Die,Nacht
-16, house ,Das,Haus
-17, father ,Der,Vater
-18, life ,Das,Leben
-19, back ,Der,Rücken
-20, voice ,Die,Stimme
-21, girl ,Das,Mädchen
-22, place ,Der,Ort
-23, boy ,Der,Junge
-24, car ,Das,Auto
-25, side ,Die,Seite
-26, arm ,Der,Arm
-27, child ,Das,Kind
-28, word ,Das,Wort
-29, moment ,Der,Moment
-30, hair ,Das,Haar
-31, foot ,Der,Fuß
-32, water ,Das,Wasser
-33, light ,Das,Licht
-34, world ,Die,Welt
-35, name ,Der,Name
-36, friend ,Der,Freund
-37, window ,Das,Fenster
-38, body ,Der,Körper
-39, table ,Der,Tisch
-40, morning ,Der,Morgen
-41, bed ,Das,Bett
-42, wall ,Die,Mauer
-43, street ,Die,Straße
-44, school ,Die,Schule
-45, air ,Die,Luft
-46, floor ,Der,Boden
-47, hour ,Die,Stunde
-48, end ,Das,Ende
-49, family ,Die,Familie
-50, guy ,Der,Kerl
-51, kind ,Die,Art
-52, minute ,Die,Minute
-53, story ,Die,Geschichte
-54, god ,Der,Gott
-55, week ,Die,Woche
-56, work ,Die,Arbeit
-57, shoulder ,Die,Schulter
-58, part ,Der,Teil
-59, mind ,Der,Geist
-60, book ,Das,Buch
-61, finger ,Der,Finger
-62, mouth ,Der,Mund
-63, kid ,Das,Kind
-64, glass ,Das,Glas
-65, tree ,Der,Baum
-66, sound ,Der,Klang
-67, line ,Die,Linie
-68, wife ,Die,Ehefrau
-69, heart ,Das,Herz
-70, money ,Das,Geld
-71, phone ,Das,Telefon
-72, look ,Das,Aussehen
-73, leg ,Das,Bein
-74, chair ,Der,Stuhl
-75, office ,Das,Büro
-76, brother ,Der,Bruder
-77, question ,Die,Frage
-78, city ,Die,Stadt
-79, month ,Der,Monat
-80, baby ,Das,Baby
-81, home ,Das,Zuhause
-82, dog ,Der,Hund
-83, road ,Die,Straße
-84, idea ,Die,Idee
-85, kitchen ,Die,Küche
-86, lot ,Das,Ganze
-87, son ,Der,Sohn
-88, job ,Der,Beruf
-89, paper ,Das,Papier
-90, sister ,Die,Schwester
-91, smile ,Das,Lächeln
-92, point ,Der,Punkt
-93, thought ,Der,Gedanke
-94, love ,Die,Liebe
-95, town ,Die,Stadt
-96, death ,Der,Tod
-97, ground ,Der,Boden
-98, others ,Die,Anderen
-99, fire ,Das,Feuer
-100, step ,Der,Schritt
-101, blood ,Das,Blut
-102, fact ,Die,Tatsache
-103, breath ,Der,Atem
-104, lip ,Die,Lippe
-105, sun ,Die,Sonne
-106, building ,Das,Gebäude
-107, number ,Die,Anzahl
-108, husband ,Der,Ehemann
-109, parent ,Das,Elternteil
-110, corner ,Die,Ecke
-111, problem ,Das,Problem
-112, couple ,Das,Ehepaar
-113, daughter ,Die,Tochter
-114, bag ,Der,Beutel
-115, hell ,Die,Hölle
-116, rest ,Die,Rast
-117, business ,Das,Geschäft
-118, sky ,Der,Himmel
-119, box ,Die,Kiste
-120, person ,Die,Person
-121, reason ,Der,Grund
-122, right ,Das,Recht
-123, skin ,Die,Haut
-124, dad ,Der,Vater
-125, case ,Der,Fall
-126, piece ,Das,Stück
-127, doctor ,Der,Doktor
-128, edge ,Die,Ecke
-129, mom ,Die,Mama
-130, picture ,Das,Bild
-131, sense ,Der,Sinn
-132, ear ,Das,Ohr
-133, second ,Der,Zweite
-134, lady ,Die,Dame
-135, neck ,Der,Hals
-136, wind ,Der,Wind
-137, desk ,Der,Schreibtisch
-138, gun ,Die,Waffe
-139, stone ,Der,Stein
-140, coffee ,Der,Kaffee
-141, ship ,Das,Schiff
-142, earth ,Die,Erde
-143, food ,Das,Essen
-144, horse ,Das,Pferd
-145, field ,Das,Feld
-146, war ,Der,Krieg
-147, afternoon ,Der,Nachmittag
-148, sir ,Die,Sir
-149, space ,Der,Raum
-150, evening ,Der,Abend
-151, letter ,Der,Brief
-152, bar ,Die,Bar
-153, dream ,Der,Traum
-154, apartment ,Die,Wohnung
-155, chest ,Die,Brust
-156, game ,Das,Spiel
-157, summer ,Der,Sommer
-158, matter ,Der,Grund
-159, silence ,Die,Stille
-160, top ,Die,Spitze
-161, rock ,Der,Fels
-162, power ,Die,Macht
-163, clothes ,Die,Kleider
-164, sign ,Das,Schild
-165, attention ,Die,Aufmerksamkeit
-166, music ,Die,Musik
-167, state ,Der,Staat
-168, pocket ,Die,Tasche
-169, dinner ,Das,Abendessen
-170, hall ,Die,Halle
-171, pain ,Der,Schmerz
-172, age ,Das,Alter
-173, river ,Der,Fluss
-174, chance ,Die,Chance
-175, nose ,Die,Nase
-176, shadow ,Der,Schatten
-177, police ,Die,Polizei
-178, memory ,Das,Gedächtnis
-179, color ,Die,Farbe
-180, knee ,Das,Knie
-181, wood ,Das,Holz
-182, shirt ,Das,Hemd
-183, party ,Die,Party
-184, country ,Das,Land
-185, truck ,Der,Lkw
-186, tooth ,Der,Zahn
-187, bill ,Die,Rechnung
-188, scene ,Die,Szene
-189, land ,Das,Land
-190, star ,Der,Stern
-191, bird ,Der,Vogel
-192, bedroom ,Das,Schlafzimmer
-193, uncle ,Der,Onkel
-194, sort ,Die,Art
-195, group ,Die,Gruppe
-196, truth ,Die,Wahrheit
-197, trouble ,Die,Schwierigkeiten
-198, crowd ,Die,Menge
-199, station ,Der,Bahnhof
-200, tear ,Die,Reiß
-201, class ,Die,Klasse
-202, sea ,Das,Meer
-203, animal ,Das,Tier
-204, center ,Das,Zentrum
-205, feeling ,Das,Gefühl
-206, store ,Das,Geschäft
-207, mountain ,Der,Berg
-208, news ,Die,Nachrichten
-209, shoe ,Der,Schuh
-210, cat ,Die,Katze
-211, screen ,Der,Bildschirm
-212, bottle ,Die,Flasche
-213, call ,Der,Anruf
-214, living ,Die,Lebenden
-215, cheek ,Die,Wange
-216, student ,Der,Schüler
-217, ball ,Der,Ball
-218, sight ,Die,Sehenswürdigkeit
-219, hill ,Der,Hügel
-220, company ,Das,Unternehmen
-221, church ,Die,Kirche
-222, rain ,Der,Regen
-223, suit ,Der,Anzug
-224, one ,Der,Eine
-225, direction ,Die,Richtung
-226, will ,Der,Wille
-227, throat ,Der,Hals
-228, middle ,Die,Mitte
-229, answer ,Die,Antwort
-230, stuff ,Das,Zeug
-231, hospital ,Das,Krankenhaus
-232, camera ,Die,Kamera
-233, dress ,Das,Kleid
-234, card ,Die,Karte
-235, yard ,Der,Hof
-236, dark ,Die,Dunkelheit
-237, shit ,Die,Scheiße
-238, image ,Das,Bild
-239, machine ,Die,Maschine
-240, distance ,Die,Distanz
-241, area ,Das,Gebiet
-242, narrator ,Der,Erzähler
-243, ice ,Das,Eis
-244, snow ,Der,Schnee
-245, note ,Die,Notiz
-246, mirror ,Der,Spiegel
-247, king ,Der,König
-248, fear ,Die,Angst
-249, officer ,Der,Offizier
-250, hole ,Das,Loch
-251, shot ,Der,Schuss
-252, guard ,Der,Wächter
-253, conversation ,Die,Unterhaltung
-254, boat ,Das,Boot
-255, system ,Das,System
-256, care ,Die,Pflege
-257, bit ,Die,Bit
-258, movie ,Der,Film
-259, bone ,Der,Knochen
-260, page ,Die,Seite
-261, captain ,Der,Kapitän
-262, aunt ,Die,Tante
-263, control ,Die,Kontrolle
-264, drink ,Das,Getränk
-265, hotel ,Das,Hotel
-266, coat ,Der,Mantel
-267, stair ,Die,Treppen
-268, order ,Die,Bestellung
-269, rose ,Die,Rose
-270, miss ,Der,Fehl
-271, hat ,Der,Hut
-272, gold ,Das,Gold
-273, cigarette ,Die,Zigarette
-274, cloud ,Die,Wolke
-275, view ,Die,Aussicht
-276, driver ,Der,Fahrer
-277, cup ,Die,Tasse
-278, figure ,Die,Figur
-279, expression ,Der,Ausdruck
-280, path ,Der,Pfad
-281, key ,Der,Schlüssel
-282, computer ,Der,Computer
-283, flower ,Die,Blume
-284, ring ,Der,Ring
-285, bathroom ,Das,Bad
-286, metal ,Das,Metall
-287, moon ,Der,Mond
-288, song ,Das,Lied
-289, soldier ,Der,Soldat
-290, radio ,Das,Radio
-291, history ,Die,Geschichte
-292, wave ,Die,Welle
-293, plan ,Der,Plan
-294, college ,Das,College
-295, fish ,Der,Fisch
-296, garden ,Der,Garten
-297, train ,Der,Zug
-298, shop ,Das,Geschäft
-299, cop ,Der,Polizist
-300, art ,Die,Kunst
-301, beer ,Das,Bier
-302, north ,Der,Nord
-303, island ,Die,Insel
-304, bus ,Der,Bus
-305, smell ,Der,Geruch
-306, noise ,Das,Geräusch
-307, mama ,Die,Mama
-308, park ,Der,Park
-309, south ,Der,Süden
-310, pair ,Das,Paar
-311, lord ,Der,Herr
-312, plate ,Der,Teller
-313, jacket ,Die,Jacke
-314, help ,Die,Hilfe
-315, daddy ,Der,Papa
-316, grass ,Das,Gras
-317, thanks ,Die,Dank
-318, heat ,Die,Hitze
-319, sleep ,Der,Schlaf
-320, brain ,Das,Gehirn
-321, service ,Der,Service
-322, trip ,Die,Reise
-323, beat ,Der,Beat
-324, knife ,Das,Messer
-325, spot ,Der,Platz
-326, message ,Die,Nachricht
-327, mark ,Die,Note
-328, teacher ,Der,Lehrer
-329, gaze ,Der,Blick
-330, village ,Das,Dorf
-331, winter ,Der,Winter
-332, front ,Die,Front
-333, law ,Das,Gesetz
-334, surface ,Die,Oberfläche
-335, bank ,Die,Bank
-336, team ,Das,Team
-337, maximum ,Das,Maximum
-338, position ,Die,Position
-339, stomach ,Der,Bauch
-340, turn ,Die,Wende
-341, west ,Der,Westen
-342, lunch ,Das,Mittagessen
-343, change ,Der,Wechsel
-344, creature ,Die,Kreatur
-345, soul ,Die,Seele
-346, leaf ,Das,Blatt
-347, show ,Die,Show
-348, gate ,Die,Gate
-349, palm ,Die,Palme
-350, plastic ,Der,Kunststoff
-351, force ,Die,Kraft
-352, beach ,Der,Strand
-353, president ,Der,Präsident
-354, shape ,Die,Form
-355, smoke ,Der,Rauch
-356, wheel ,Das,Rad
-357, silver ,Das,Silber
-358, roof ,Das,Dach
-359, weight ,Das,Gewicht
-360, tongue ,Die,Zunge
-361, tea ,Der,Tee
-362, track ,Die,Strecke
-363, angle ,Der,Winkel
-364, form ,Die,Form
-365, tone ,Der,Ton
-366, circle ,Der,Kreis
-367, spring ,Der,Frühling
-368, porch ,Die,Vorhalle
-369, sheet ,Das,Blatt
-370, member ,Das,Mitglied
-371, pool ,Das,Schwimmbecken
-372, need ,Das,Bedürfnis
-373, hope ,Die,Hoffnung
-374, lake ,Der,See
-375, breast ,Die,Brust
-376, surprise ,Die,Überraschung
-377, interest ,Die,Interesse
-378, bottom ,Der,Boden
-379, spirit ,Der,Geist
-380, block ,Der,Block
-381, language ,Die,Sprache
-382, bridge ,Die,Brücke
-383, dust ,Der,Staub
-384, cell ,Die,Zelle
-385, wine ,Der,Wein
-386, boot ,Das,Boot
-387, choice ,Die,Wahl
-388, row ,Die,Reihe
-389, talk ,Das,Gespräch
-390, plane ,Das,Flugzeug
-391, watch ,Die,Uhr
-392, information ,Die,Information
-393, grandmother ,Die,Großmutter
-394, wing ,Der,Flügel
-395, bob ,Die,Bob
-396, club ,Der,Club
-397, master ,Der,Meister
-398, grace ,Die,Gnade
-399, forest ,Der,Wald
-400, size ,Die,Größe
-401, set ,Der,Satz
-402, marriage ,Die,Ehe
-403, forehead ,Die,Stirn
-404, storm ,Der,Sturm
-405, doorway ,Die,Türöffnung
-406, situation ,Die,Situation
-407, counter ,Der,Zähler
-408, neighbor ,Der,Nachbar
-409, photo ,Das,Foto
-410, stage ,Die,Bühne
-411, meeting ,Das,Treffen
-412, nurse ,Die,Krankenschwester
-413, security ,Die,Sicherheit
-414, weapon ,Die,Waffe
-415, event ,Das,Ereignis
-416, ceiling ,Die,Decke
-417, engine ,Der,Motor
-418, gift ,Das,Geschenk
-419, restaurant ,Das,Restaurant
-420, board ,Die,Tafel
-421, hallway ,Der,Flur
-422, army ,Die,Armee
-423, effort ,Der,Aufwand
-424, east ,Der,Osten
-425, agent ,Der,Agent
-426, future ,Die,Zukunft
-427, pant ,Die,Hose
-428, leather ,Das,Leder
-429, flight ,Der,Flug
-430, sex ,Das,Geschlecht
-431, court ,Das,Gericht
-432, course ,Der,Kurs
-433, dirt ,Der,Dreck
-434, egg ,Das,Ei
-435, chin ,Das,Kinn
-436, stranger ,Der,Fremde
-437, pleasure ,Die,Freude
-438, detail ,Das,Detail
-439, crew ,Die,Besatzung
-440, fall ,Der,Herbst
-441, guest ,Der,Gast
-442, experience ,Das,Erlebnis
-443, joke ,Der,Witz
-444, sand ,Der,Sand
-445, fist ,Die,Faust
-446, action ,Die,Aktion
-447, walk ,Das,Wandern
-448, wedding ,Die,Hochzeit
-449, deal ,Der,Deal
-450, nature ,Die,Natur
-451, planet ,Der,Planet
-452, cousin ,Der,Cousin
-453, movement ,Die,Bewegung
-454, flesh ,Das,Fleisch
-455, record ,Der,Datensatz
-456, camp ,Das,Camp
-457, newspaper ,Die,Zeitung
-458, ray ,Der,Strahl
-459, human ,Der,Mensch
-460, couch ,Das,Sofa
-461, motion ,Die,Bewegung
-462, grandfather ,Der,Großvater
-463, photograph ,Die,Fotografie
-464, secret ,Das,Geheimnis
-465, beauty ,Die,Schönheit
-466, presence ,Das,Vorhandensein
-467, bell ,Die,Glocke
-468, folk ,Die,Volks
-469, button ,Der,Knopf
-470, list ,Die,Liste
-471, level ,Das,Level
-472, date ,Das,Datum
-473, subject ,Das,Thema
-474, difference ,Der,Unterschied
-475, pause ,Die,Pause
-476, van ,Der,Van
-477, blade ,Die,Klinge
-478, television ,Das,Fernsehen
-479, cover ,Die,Titelseite
-480, past ,Die,Vergangenheit
-481, farm ,Der,Bauernhof
-482, lap ,Die,Runden
-483, band ,Die,Band
-484, lawyer ,Der,Anwalt
-485, magazine ,Das,Magazin
-486, branch ,Der,Ast
-487, frame ,Der,Rahmen
-488, deck ,Das,Deck
-489, effect ,Der,Effekt
-490, dance ,Der,Tanz
-491, vision ,Die,Sicht
-492, ghost ,Das,Gespenst
-493, ass ,Der,Esel
-494, character ,Der,Charakter
-495, glance ,Der,Blick
-496, goodbye ,Das,Auf
-497, parking ,Das,Park
-498, breakfast ,Das,Frühstück
-499, gesture ,Die,Geste
-500, luck ,Das,Glück
-501, blanket ,Die,Decke
-502, gas ,Das,Gas
-503, corridor ,Der,Korridor
-504, professor ,Der,Professor
-505, play ,Das,Spiel
-506, mistake ,Der,Fehler
-507, university ,Die,Universität
-508, ocean ,Der,Ozean
-509, century ,Das,Jahrhundert
-510, honey ,Der,Honig
-511, pile ,Der,Stapel
-512, bowl ,Die,Schale
-513, fence ,Der,Zaun
-514, rule ,Die,Regel
-515, laughter ,Das,Gelächter
-516, anger ,Die,Wut
-517, sweat ,Der,Schweiß
-518, accident ,Der,Unfall
-519, weather ,Das,Wetter
-520, decision ,Die,Entscheidung
-521, angel ,Der,Engel
-522, strength ,Die,Stärke
-523, chicken ,Das,Huhn
-524, study ,Die,Studium
-525, tape ,Das,Band
-526, wrist ,Das,Handgelenk
-527, stop ,Der,Halt
-528, hip ,Die,Hüfte
-529, government ,Die,Regierung
-530, belly ,Der,Bauch
-531, queen ,Die,Königin
-532, tail ,Der,Schweif
-533, plant ,Die,Pflanze
-534, flame ,Die,Flamme
-535, heaven ,Der,Himmel
-536, belt ,Der,Gürtel
-537, neighborhood ,Die,Nachbarschaft
-538, energy ,Die,Energie
-539, green ,Das,Grün
-540, quarter ,Das,Viertel
-541, enemy ,Der,Feind
-542, move ,Die,Bewegung
-543, entrance ,Der,Eingang
-544, library ,Die,Bibliothek
-545, writer ,Der,Verfasser
-546, peace ,Der,Frieden
-547, touch ,Die,Berührung
-548, pot ,Der,Topf
-549, type ,Der,Typ
-550, cause ,Der,Grund
-551, rope ,Das,Seil
-552, muscle ,Der,Muskel
-553, painting ,Das,Gemälde
-554, curtain ,Die,Gardine
-555, meal ,Die,Mahlzeit
-556, act ,Der,Akt
-557, wolf ,Der,Wolf
-558, cabin ,Die,Kajüte
-559, charge ,Die,Ladung
-560, clock ,Die,Uhr
-561, passenger ,Der,Passagier
-562, buddy ,Der,Kumpel
-563, drug ,Das,Medikament
-564, use ,Die,Verwendung
-565, bench ,Die,Bank
-566, traffic ,Der,Verkehr
-567, relief ,Das,Relief
-568, cap ,Die,Kappe
-569, pack ,Das,Rudel
-570, weekend ,Das,Wochenende
-571, stand ,Der,Stand
-572, elevator ,Der,Aufzug
-573, birthday ,Der,Geburtstag
-574, iron ,Das,Bügeleisen
-575, meat ,Das,Fleisch
-576, eyebrow ,Die,Augenbraue
-577, response ,Die,Antwort
-578, speed ,Die,Geschwindigkeit
-579, purpose ,Die,Absicht
-580, skirt ,Der,Rock
-581, square ,Das,Quadrat
-582, drive ,Die,Fahrt
-584, english ,Das,Englisch
-585, tower ,Der,Turm
-586, battle ,Der,Kampf
-587, film ,Der,Film
-588, race ,Das,Rennen
-589, shock ,Der,Schock
-590, section ,Die,Sektion
-591, manner ,Die,Methode
-592, sword ,Das,Schwert
-593, stick ,Der,Stock
-594, file ,Die,Datei
-595, bread ,Das,Brot
-596, oil ,Das,Öl
-597, chain ,Die,Kette
-598, department ,Die,Abteilung
-599, project ,Das,Projekt
-600, murder ,Der,Mord
-601, bear ,Der,Bär
-602, test ,Der,Test
-603, visit ,Der,Besuch
-604, milk ,Die,Milch
-605, boss ,Der,Chef
-606, elbow ,Der,Ellbogen
-607, desire ,Das,Verlangen
-608, patient ,Der,Patient
-609, grin ,Das,Grinsen
-610, lover ,Der,Liebhaber
-611, price ,Der,Preis
-612, map ,Die,Karte
-613, knowledge ,Das,Wissen
-614, beginning ,Der,Anfang
-615, cold ,Die,Kälte
-616, closet ,Der,Schrank
-617, dawn ,Die,Morgendämmerung
-618, temple ,Der,Tempel
-619, joy ,Der,Spaß
-620, duty ,Die,Pflicht
-621, practice ,Die,Übung
-622, heel ,Die,Ferse
-623, valley ,Das,Tal
-624, fight ,Der,Kampf
-625, wire ,Das,Kabel
-626, jeans ,Die,Jeans
-627, kiss ,Der,Kuss
-628, jaw ,Der,Kiefer
-629, run ,Die,Lauf
-630, hold ,Der,Halt
-631, relationship ,Das,Verhältnis
-632, object ,Das,Objekt
-633, attack ,Der,Angriff
-634, dish ,Das,Gericht
-635, highway ,Die,Autobahn
-636, shade ,Die,Schattierung
-637, crime ,Das,Verbrechen
-638, white ,Das,Weiß
-639, partner ,Der,Partner
-640, priest ,Der,Priester
-641, lawn ,Der,Rasen
-642, laugh ,Das,Lachen
-643, trunk ,Der,Kofferraum
-644, cry ,Das,Weinen
-645, program ,Das,Programm
-646, ride ,Die,Fahrt
-647, shelf ,Das,Regal
-648, gentleman ,Der,Gentleman
-649, being ,Das,Sein
-650, steel ,Der,Stahl
-651, sidewalk ,Der,Bürgersteig
-652, uniform ,Die,Uniform
-653, pattern ,Das,Muster
-654, evidence ,Der,Beweis
-655, player ,Der,Spieler
-656, novel ,Der,Roman
-657, pillow ,Das,Kissen
-658, lamp ,Die,Lampe
-659, drawer ,Die,Schublade
-660, danger ,Die,Gefahr
-661, detective ,Der,Detektiv
-662, instant ,Die,Instant
-663, thinking ,Das,Denken
-664, crack ,Der,Riss
-665, prayer ,Das,Gebet
-666, towel ,Das,Handtuch
-667, glove ,Der,Handschuh
-668, bay ,Die,Bucht
-669, audience ,Das,Publikum
-670, can ,Die,Dose
-671, condition ,Die,Bedingung
-672, trail ,Der,Pfad
-673, waist ,Die,Taille
-674, pressure ,Der,Druck
-675, telephone ,Das,Telefon
-676, sink ,Das,Waschbecken
-677, return ,Die,Rückkehr
-678, breeze ,Die,Brise
-679, taste ,Der,Geschmack
-680, fault ,Der,Fehler
-681, stream ,Der,Strom
-682, result ,Das,Ergebnis
-683, author ,Der,Autor
-684, tip ,Das,Trinkgeld
-685, shower ,Die,Dusche
-686, toe ,Die,Zehe
-687, season ,Die,Jahreszeit
-688, half ,Die,Hälfte
-689, fool ,Der,Dummkopf
-690, tunnel ,Der,Tunnel
-691, client ,Der,Klient
-692, garage ,Die,Garage
-693, mission ,Die,Mission
-694, chief ,Der,Chef
-695, bullet ,Die,Kugel
-696, market ,Der,Markt
-697, loss ,Der,Verlust
-698, series ,Die,Reihe
-699, pen ,Der,Stift
-700, term ,Der,Begriff
-701, poem ,Das,Gedicht
-702, prince ,Der,Prinz
-703, clay ,Der,Ton
-704, lock ,Das,Schloss
-705, reality ,Die,Realität
-706, snake ,Die,Schlange
-707, apple ,Der,Apfel
-708, mask ,Die,Maske
-710, birth ,Die,Geburt
-711, break ,Die,Pause
-712, wonder ,Das,Wunder
-713, sunlight ,Das,Sonnenlicht
-714, tank ,Der,Panzer
-715, staff ,Das,Personal
-716, lie ,Die,Lüge
-717, faith ,Der,Glaube
-718, honor ,Die,Ehre
-719, cream ,Die,Creme
-720, sake ,Das,Wohl
-721, victim ,Das,Opfer
-722, possibility ,Die,Möglichkeit
-723, contact ,Der,Kontakt
-724, mood ,Die,Stimmung
-725, thumb ,Der,Daumen
-726, reading ,Das,Lesen
-727, fun ,Der,Spaß
-728, candle ,Die,Kerze
-729, cave ,Die,Höhle
-730, post ,Die,Post
-731, prison ,Das,Gefängnis
-732, emotion ,Die,Emotion
-733, leader ,Der,Führer
-734, degree ,Der,Grad
-735, feature ,Die,Eigenschaft
-736, ticket ,Das,Ticket
-737, alien ,Das,Alien
-738, lesson ,Der,Unterricht
-739, desert ,Die,Wüste
-740, cut ,Der,Schnitt
-741, mess ,Die,Unordnung
-742, warning ,Die,Warnung
-743, tale ,Das,Märchen
-744, funeral ,Das,Begräbnis
-745, cab ,Das,Taxi
-746, reporter ,Der,Reporter
-747, present ,Das,Geschenk
-748, theater ,Das,Theater
-749, length ,Die,Länge
-750, mud ,Der,Schlamm
-751, science ,Die,Wissenschaft
-752, drop ,Der,Fall
-753, string ,Die,Schnur
-754, speech ,Die,Rede
-755, copy ,Die,Kopie
-756, cow ,Die,Kuh
-757, worker ,Der,Arbeiter
-758, thigh ,Der,Oberschenkel
-759, lab ,Das,Labor
-760, roll ,Die,Rolle
-761, fruit ,Das,Obst
-762, patch ,Der,Patch
-763, silk ,Die,Seide
-764, buck ,Der,Buck
-765, brick ,Die,Ziegel
-766, rifle ,Das,Gewehr
-767, career ,Die,Karriere
-768, issue ,Das,Thema
-769, opportunity ,Die,Gelegenheit
-770, director ,Der,Direktor
-771, monster ,Das,Monster
-772, vehicle ,Das,Fahrzeug
-773, alley ,Die,Gasse
-774, sleeve ,Die,Hülse
-775, grave ,Das,Grab
-776, bush ,Der,Busch
-777, dining ,Der,Speisesaal
-778, opening ,Die,Eröffnung
-779, twin ,Der,Zwilling
-780, barn ,Die,Scheune
-781, pound ,Das,Pfund
-782, site ,Der,Standort
-783, flash ,Der,Blitz
-784, judge ,Der,Richter
-785, mass ,Die,Masse
-786, process ,Der,Prozess
-787, tie ,Das,Band
-788, purse ,Der,Geldbeutel
-789, pipe ,Das,Rohr
-790, dragon ,Der,Drache
-791, horizon ,Der,Horizont
-792, tray ,Die,Schale
-793, envelope ,Der,Umschlag
-794, check ,Die,Prüfung
-795, adult ,Die,Erwachsene
-796, emergency ,Der,Notfall
-797, material ,Das,Material
-798, childhood ,Die,Kindheit
-799, habit ,Die,Angewohnheit
-800, artist ,Der,Künstler
-801, address ,Die,Adresse
-802, scent ,Der,Duft
-803, universe ,Das,Universum
-804, nod ,Das,Kopfnicken
-805, shell ,Die,Muschel
-806, community ,Die,Gemeinde
-807, start ,Der,Anfang
-808, wound ,Die,Wunde
-809, mouse ,Die,Maus
-810, pilot ,Der,Pilot
-811, grade ,Die,Klasse
-812, video ,Das,Video
-813, basket ,Der,Korb
-814, wagon ,Der,Wagen
-815, attempt ,Der,Versuch
-816, sofa ,Das,Sofa
-817, cake ,Der,Kuchen
-818, fellow ,Der,Kerl
-819, affair ,Die,Affäre
-820, shore ,Die,Küste
-821, general ,Die,Allgemeine
-822, root ,Der,Ursprung
-823, robe ,Die,Robe
-824, concern ,Die,Sorge
-825, press ,Die,Presse
-826, rat ,Die,Ratte
-827, society ,Die,Gesellschaft
-828, style ,Der,Stil
-829, county ,Die,Kreis
-830, command ,Der,Befehl
-831, visitor ,Der,Besucher
-832, model ,Das,Model
-833, chamber ,Die,Kammer
-834, beast ,Das,Biest
-835, bunch ,Das,Bündel
-836, background ,Der,Hintergrund
-837, unit ,Die,Einheit
-838, furniture ,Die,Möbel
-839, nail ,Der,Nagel
-840, scream ,Der,Schrei
-841, property ,Die,Eigenschaft
-842, equipment ,Die,Ausrüstung
-843, driveway ,Die,Auffahrt
-844, grip ,Der,Griff
-845, tube ,Das,Rohr
-846, ash ,Die,Asche
-847, fan ,Der,Fan
-848, opinion ,Die,Meinung
-849, data ,Die,Daten
-850, connection ,Die,Verbindung
-851, trick ,Der,Trick
-852, mystery ,Das,Mysterium
-853, period ,Die,Periode
-854, writing ,Das,Schreiben
-855, horror ,Der,Horror
-856, candy ,Die,Süßigkeit
-857, bitch ,Die,Bitch
-858, health ,Die,Gesundheit
-859, manager ,Der,Geschäftsführer
-860, safety ,Die,Sicherheit
-861, height ,Die,Höhe
-862, appearance ,Die,Erscheinung
-863, sigh ,Der,Seufzer
-864, mine ,Die,Mine
-865, cloth ,Die,Kleidung
-866, reaction ,Die,Reaktion
-867, source ,Die,Quelle
-868, self ,Das,Ich
-869, pistol ,Die,Pistole
-870, airport ,Der,Flughafen
-871, hero ,Der,Held
-872, promise ,Das,Versprechen
-873, bow ,Der,Bogen
-874, tent ,Das,Zelt
-875, booth ,Der,Messestand
-876, cash ,Das,Geld
-877, avenue ,Die,Straße
-878, tshirt ,Das,TShirt
-879, carpet ,Der,Teppich
-880, basement ,Der,Keller
-881, girlfriend ,Die,Freundin
-882, beard ,Der,Bart
-883, brow ,Die,Stirn
-884, display ,Der,Bildschirm
-885, signal ,Das,Signal
-886, servant ,Der,Diener
-887, whisper ,Das,Flüstern
-888, doubt ,Der,Zweifel
-889, account ,Das,Konto
-890, magic ,Die,Magie
-891, hank ,Die,Hank
-892, limb ,Das,Glied
-893, bastard ,Der,Bastard
-894, skull ,Der,Schädel
-895, sentence ,Der,Satz
-896, collar ,Der,Kragen
-897, horn ,Das,Horn
-898, oak ,Die,Eiche
-899, ankle ,Der,Knöchel
-900, doll ,Die,Puppe
-901, sandwich ,Das,Sandwich
-902, robin ,Das,Rotkehlchen
-903, justice ,Die,Justiz
-904, pride ,Der,Stolz
-905, youth ,Die,Jugend
-906, secretary ,Der,Sekretär
-907, research ,Die,Forschung
-908, sport ,Der,Sport
-909, task ,Die,Aufgabe
-910, grant ,Der,Zuschuss
-911, sheriff ,Der,Sheriff
-912, midnight ,Die,Mitternachts
-913, chip ,Der,Chip
-914, theory ,Die,Theorie
-916, collection ,Die,Sammlung
-917, cross ,Das,Kreuz
-918, pine ,Die,Kiefer
-919, generation ,Die,Generation
-920, authority ,Die,Autorität
-921, papa ,Die,Papa
-922, journey ,Die,Reise
-923, pearl ,Die,Perle
-924, toilet ,Die,Toilette
-925, killer ,Der,Mörder
-926, tool ,Das,Werkzeug
-927, medicine ,Die,Medizin
-928, sugar ,Der,Zucker
-929, princess ,Die,Prinzessin
-930, argument ,Das,Argument
-931, cliff ,Die,Klippe
-932, cart ,Der,Wagen
-933, crystal ,Der,Kristall
-934, bean ,Die,Bohne
-935, cage ,Der,Käfig
-936, chocolate ,Die,Schokolade
-937, coast ,Die,Küste
-938, decade ,Das,Jahrzehnt
-939, meaning ,Die,Bedeutung
-940, gear ,Das,Getriebe
-941, suitcase ,Der,Koffer
-942, operation ,Die,Operation
-943, breathing ,Das,Atem
-944, role ,Die,Rolle
-945, version ,Die,Version
-946, prisoner ,Der,Gefangene
-947, match ,Das,Match
-948, beam ,Der,Strahl
-949, castle ,Die,Burg
-950, rush ,Der,Ansturm
-951, lane ,Die,Fahrspur
-952, clothing ,Die,Bekleidung
-953, pole ,Der,Pol
-954, freedom ,Die,Freiheit
-955, skill ,Das,Können
-956, passion ,Die,Leidenschaft
-957, activity ,Die,Aktivität
-959, platform ,Die,Platform
-960, salt ,Das,Salz
-961, bike ,Das,Fahrrad
-962, stack ,Der,Stapel
-963, companion ,Der,Begleiter
-964, fate ,Das,Schicksal
-965, rage ,Die,Wut
-966, supply ,Die,Versorgung
-967, whale ,Der,Wal
-968, pig ,Das,Schwein
-969, rabbit ,Der,Hase
-970, aisle ,Der,Gang
-971, monitor ,Der,Bildschirm
-972, helmet ,Der,Helm
-973, respect ,Der,Respekt
-974, excitement ,Die,Aufregung
-975, lobby ,Die,Lobby
-976, boyfriend ,Der,Freund
-977, fur ,Das,Fell
-978, range ,Der,Bereich
-979, dick ,Die,Dick
-980, code ,Der,Code
-981, chapter ,Das,Kapitel
-982, reflection ,Die,Reflexion
-983, mail ,Die,Post
-984, fly ,Der,Flug
-985, cabinet ,Das,Kabinett
-986, toy ,Das,Spielzeug
-987, baseball ,Die,Baseball
-988, inside ,Das,Innere
-989, pace ,Die,Geschwindigkeit
-990, handle ,Der,Griff
-991, lead ,Die,Führung
-992, amount ,Die,Summe
-993, nerve ,Der,Nerv
-994, terror ,Der,Schrecken
-995, sweater ,Der,Pullover
-996, quality ,Die,Qualität
-997, hunter ,Der,Jäger
-998, paint ,Die,Farbe
-999, buster ,Die,Buster
-1000, cotton ,Die,Baumwolle
-1001, sergeant ,Der,Wachtmeister
-1002, credit ,Der,Kredit
-1003, blow ,Der,Schlag
-1004, devil ,Der,Teufel
-1005, threat ,Die,Bedrohung
-1006, success ,Der,Erfolg
-1008, cable ,Das,Kabel
-1009, pan ,Die,Pfanne
-1010, clerk ,Der,Angestellte
-1012, meter ,Das,Messgerät
-1013, shame ,Die,Schande
-1014, needle ,Die,Nadel
-1015, lung ,Die,Lunge
-1016, warrior ,Der,Krieger
-1017, circumstance ,Der,Umstand
-1018, studio ,Das,Studio
-1019, panic ,Die,Panik
-1020, lack ,Der,Mangel
-1021, farmer ,Der,Bauer
-1022, accent ,Der,Akzent
-1023, bomb ,Die,Bombe
-1024, panel ,Die,Platte
-1025, ability ,Die,Fähigkeit
-1026, fortune ,Das,Glück
-1027, victor ,Der,Sieger
-1028, feather ,Die,Feder
-1029, grandma ,Die,Oma
-1030, glow ,Das,Glühen
-1031, behavior ,Das,Verhalten
-1032, passage ,Der,Durchgang
-1033, slave ,Die,Slave
-1034, lieutenant ,Der,Leutnant
-1035, barrel ,Der,Lauf
-1036, warmth ,Die,Wärme
-1037, impression ,Der,Eindruck
-1038, mason ,Der,Maurer
-1039, bride ,Die,Braut
-1040, package ,Das,Paket
-1041, fog ,Der,Nebel
-1042, walking ,Das,Gehen
-1043, balance ,Die,Balance
-1044, sock ,Die,Socke
-1045, robot ,Der,Roboter
-1046, potato ,Die,Kartoffel
-1047, item ,Der,Gegenstand
-1048, bath ,Das,Bad
-1049, diamond ,Der,Diamant
-1050, corpse ,Die,Leiche
-1051, explanation ,Die,Erklärung
-1052, structure ,Die,Struktur
-1053, exit ,Der,Ausgang
-1054, pad ,Das,Pad
-1055, stove ,Der,Herd
-1056, blue ,Das,Blaue
-1057, american ,Die,Amerikaner
-1058, ruby ,Der,Rubin
-1059, lightning ,Der,Blitz
-1060, pit ,Die,Grube
-1061, colonel ,Der,Oberst
-1062, dock ,Das,Dock
-1063, creek ,Der,Bach
-1064, advice ,Der,Ratschlag
-1065, tourist ,Der,Tourist
-1066, grief ,Die,Trauer
-1067, defense ,Die,Verteidigung
-1068, bite ,Der,Biss
-1069, museum ,Das,Museum
-1070, favor ,Die,Gunst
-1071, supper ,Das,Abendessen
-1072, comfort ,Der,Komfort
-1073, dean ,Der,Dekan
-1074, value ,Der,Wert
-1075, march ,Der,Marsch
-1076, estate ,Das,Anwesen
-1077, poet ,Der,Poet
-1078, palace ,Der,Palast
-1079, soup ,Die,Suppe
-1080, nation ,Die,Nation
-1081, jar ,Das,Gefäss
-1082, standing ,Der,Ständige
-1083, sack ,Der,Sack
-1084, demon ,Der,Dämon
-1085, conference ,Die,Konferenz
-1086, juice ,Der,Saft
-1087, responsibility ,Die,Verantwortung
-1088, brush ,Der,Pinsel
-1089, route ,Die,Route
-1090, cheese ,Der,Käse
-1091, hood ,Die,Haube
-1092, duck ,Die,Ente
-1093, saint ,Der,Heilige
-1094, pass ,Der,Pass
-1095, target ,Das,Ziel
-1096, orange ,Die,Orange
-1097, culture ,Die,Kultur
-1098, tour ,Die,Reise
-1099, commander ,Der,Kommandant
-1100, hook ,Der,Haken
-1101, mist ,Der,Nebel
-1102, training ,Das,Training
-1103, search ,Die,Suche
-1104, coin ,Die,Münze
-1105, miracle ,Das,Wunder
-1106, advantage ,Der,Vorteil
-1107, exchange ,Der,Austausch
-1108, fiction ,Die,Fiktion
-1109, pond ,Der,Teich
-1110, assistant ,Der,Assistent
-1111, design ,Das,Design
-1112, fishing ,Die,Angel
-1113, slope ,Die,Piste
-1114, earl ,Der,Graf
-1115, comment ,Der,Kommentar
-1116, waiter ,Der,Kellner
-1117, grocery ,Der,Lebensmittel
-1118, ladder ,Die,Leiter
-1119, curve ,Die,Kurve
-1120, volume ,Das,Volumen
-1121, risk ,Das,Risiko
-1122, nightmare ,Der,Albtraum
-1123, existence ,Die,Existenz
-1124, trace ,Die,Spur
-1125, disease ,Die,Krankheit
-1126, support ,Die,Unterstützung
-1127, witness ,Der,Zeuge
-1128, stock ,Die,Aktie
-1129, device ,Das,Gerät
-1130, landscape ,Die,Landschaft
-1131, holiday ,Der,Urlaub
-1132, ace ,Das,Ass
-1133, piano ,Das,Klavier
-1134, gut ,Die,Eingeweide
-1135, talent ,Das,Talent
-1136, imagination ,Die,Phantasie
-1137, black ,Die,Schwarze
-1138, reed ,Der,Reed
-1139, lid ,Der,Deckel
-1140, hint ,Der,Hinweis
-1141, walker ,Der,Wanderer
-1142, chill ,Die,Kälte
-1143, trial ,Die,Studie
-1144, interview ,Das,Interview
-1145, approach ,Der,Ansatz
-1146, scar ,Die,Narbe
-1147, fashion ,Die,Mode
-1148, channel ,Der,Kanal
-1149, footstep ,Die,Tritt
-1150, pickup ,Der,Aufnehmer
-1151, hawk ,Der,Habicht
-1152, trailer ,Der,Anhänger
-1153, statue ,Die,Statue
-1154, pill ,Die,Pille
-1155, bug ,Der,Käfer
-1156, bucket ,Der,Eimer
-1158, species ,Die,Arten
-1159, column ,Die,Kolumne
-1160, damage ,Der,Schaden
-1161, instrument ,Das,Instrument
-1162, port ,Der,Hafen
-1163, layer ,Die,Schicht
-1164, strip ,Der,Streifen
-1165, garbage ,Der,Müll
-1166, rib ,Die,Rippe
-1167, notebook ,Das,Notebook
-1168, corn ,Der,Mais
-1169, offer ,Das,Angebot
-1170, drawing ,Die,Zeichnung
-1171, statement ,Die,Aussage
-1172, intelligence ,Die,Intelligenz
-1173, excuse ,Die,Entschuldigung
-1174, landing ,Die,Landung
-1175, copyright ,Der,Urheberrechts
-1176, rod ,Die,Stange
-1177, fantasy ,Die,Fantasie
-1178, curiosity ,Die,Neugier
-1179, gown ,Das,Kleid
-1180, border ,Die,Grenze
-1181, poetry ,Die,Poesie
-1182, firm ,Die,Firma
-1183, rise ,Der,Aufgang
-1184, handful ,Die,Handvoll
-1185, china ,Die,China
-1186, french ,Die,Franzosen
-1187, mean ,Die,Durchschnitts
-1188, deer ,Das,Reh
-1189, print ,Die,Druck
-1190, rail ,Die,Schiene
-1191, rate ,Die,Rate
-1192, courage ,Der,Mut
-1193, arrival ,Die,Ankunft
-1194, wish ,Der,Wunsch
-1195, ridge ,Der,Grat
-1196, idiot ,Der,Idiot
-1197, bull ,Der,Bulle
-1198, seed ,Die,Saat
-1199, progress ,Der,Fortschritt
-1200, feel ,Das,Gefühl
-1201, shorts ,Die,Shorts
-1202, citizen ,Der,Bürger
-1203, trash ,Der,Müll
-1204, log ,Das,Protokoll
-1205, patience ,Die,Geduld
-1206, bat ,Die,Fledermaus
-1207, football ,Der,Fußball
-1208, routine ,Die,Routine
-1209, explosion ,Die,Explosion
-1210, content ,Der,Inhalt
-1211, scientist ,Der,Wissenschaftler
-1212, failure ,Das,Versagen
-1213, sin ,Die,Sünde
-1214, butt ,Der,Hintern
-1215, confusion ,Die,Verwirrung
-1216, understanding ,Das,Verständnis
-1217, trade ,Der,Handel
-1218, refrigerator ,Der,Kühlschrank
-1219, mister ,Der,Herr
-1220, flashlight ,Die,Taschenlampe
-1221, net ,Das,Internet
-1222, sailor ,Der,Seemann
-1223, attitude ,Die,Attitüde
-1224, guilt ,Die,Schuld
-1225, crying ,Das,Weinen
-1226, sip ,Die,Sip
-1227, travel ,Die,Reise
-1228, cookie ,Der,Keks
-1229, escape ,Die,Flucht
-1230, instruction ,Die,Anleitung
-1231, fabric ,Das,Gewebe
-1232, marble ,Der,Marmor
-1233, glimpse ,Der,Blick
-1234, dusk ,Die,Dämmerung
-1235, cottage ,Die,Hütte
-1236, monkey ,Der,Affe
-1237, makeup ,Das,Makeup
-1238, doc ,Die,Doc
-1239, blouse ,Die,Bluse
-1240, rhythm ,Der,Rhythmus
-1241, steam ,Der,Dampf
-1242, phrase ,Der,Satz
-1243, nut ,Die,Mutter
-1244, pencil ,Der,Bleistift
-1245, cook ,Der,Koch
-1246, flag ,Die,Flagge
-1247, coach ,Der,Trainer
-1248, swing ,Die,Schaukel
-1249, speaker ,Der,Lautsprecher
-1250, bolt ,Der,Bolzen
-1251, fat ,Das,Fett
-1252, rug ,Der,Teppich
-1253, knock ,Die,Klopf
-1254, spell ,Der,Zauber
-1255, taxi ,Das,Taxi
-1256, round ,Die,Runde
-1257, straw ,Der,Strohhalm
-1258, hatch ,Die,Luke
-1259, fork ,Die,Gabel
-1260, evil ,Das,Böse
-1261, maid ,Das,Dienstmädchen
-1262, relative ,Die,Relative
-1263, witch ,Die,Hexe
-1264, courtyard ,Der,Hof
-1265, sensation ,Die,Sensation
-1266, bubble ,Die,Blase
-1267, reader ,Der,Leser
-1268, curl ,Die,Locke
-1269, pie ,Der,Kuchen
-1270, jet ,Der,Strahl
-1271, shift ,Die,Verschiebung
-1272, union ,Die,Union
-1273, teenager ,Der,Teenager
-1274, plain ,Die,Ebene
-1275, waitress ,Die,Kellnerin
-1276, reply ,Die,Antwort
-1277, rumor ,Das,Gerücht
-1278, gravity ,Die,Schwerkraft
-1279, shelter ,Die,Zuflucht
-1280, adventure ,Das,Abenteuer
-1281, lion ,Der,Löwe
-1282, spine ,Die,Wirbelsäule
-1283, confidence ,Das,Vertrauen
-1284, depth ,Die,Tiefe
-1285, reach ,Die,Reichweite
-1286, hammer ,Der,Hammer
-1287, bible ,Die,Bibel
-1288, contract ,Der,Vertrag
-1289, wallet ,Der,Geldbeutel
-1290, jungle ,Der,Dschungel
-1291, factory ,Die,Fabrik
-1292, indian ,Die,Indische
-1293, balcony ,Der,Balkon
-1294, rice ,Der,Reis
-1295, knot ,Der,Knoten
-1296, cord ,Die,Schnur
-1297, colleague ,Der,Kollege
-1298, intention ,Die,Absicht
-1299, stare ,Die,Stare
-1300, motel ,Das,Motel
-1301, attorney ,Der,Anwalt
-1302, darling ,Der,Liebling
-1303, discussion ,Die,Diskussion
-1304, performance ,Die,Leistung
-1305, tension ,Die,Spannung
-1306, text ,Der,Text
-1307, strand ,Der,Strang
-1308, noon ,Die,Mittags
-1309, vein ,Die,Vene
-1310, expert ,Der,Experte
-1311, gang ,Die,Gruppe
-1312, policeman ,Der,Polizist
-1313, cancer ,Der,Krebs
-1314, fox ,Der,Fuchs
-1315, divorce ,Die,Scheidung
-1316, pulse ,Die,Impuls
-1317, absence ,Die,Abwesenheit
-1318, violence ,Die,Gewalt
-1319, humor ,Der,Humor
-1320, stool ,Der,Stuhl
-1321, gravel ,Der,Kies
-1322, treasure ,Der,Schatz
-1323, butter ,Die,Butter
-1324, switch ,Der,Schalter
-1325, cigar ,Die,Zigarre
-1326, canvas ,Die,Leinwand
-1327, happiness ,Die,Fröhlichkeit
-1328, guide ,Der,Führer
-1329, pin ,Der,Stift
-1330, actor ,Der,Schauspieler
-1331, whole ,Das,Ganze
-1332, arrangement ,Die,Vereinbarung
-1333, brown ,Die,Braune
-1334, host ,Der,Gastgeber
-1335, ribbon ,Das,Farbband
-1336, scarf ,Der,Schal
-1337, scale ,Die,Skala
-1338, proof ,Der,Beweis
-1339, arrow ,Der,Pfeil
-1340, temperature ,Die,Temperatur
-1341, technology ,Die,Technologie
-1342, permission ,Die,Erlaubnis
-1343, location ,Der,Ort
-1344, claw ,Die,Klaue
-1345, cowboy ,Der,Cowboy
-1346, agency ,Die,Agentur
-1347, construction ,Die,Konstruktion
-1348, hunting ,Das,Jagd
-1349, vegetable ,Das,Gemüse
-1350, tin ,Die,Dose
-1351, helicopter ,Der,Hubschrauber
-1352, trap ,Die,Falle
-1353, pat ,Das,Pat
-1354, gap ,Die,Lücke
-1355, pet ,Das,Haustier
-1356, education ,Die,Bildung
-1357, shopping ,Das,Einkaufen
-1358, shed ,Der,Schuppen
-1359, agreement ,Die,Vereinbarung
-1360, soil ,Die,Erde
-1361, duke ,Der,Herzog
-1362, shotgun ,Die,Schrotflinte
-1363, notion ,Die,Vorstellung
-1364, rear ,Die,Rück
-1365, ceremony ,Die,Zeremonie
-1366, spoon ,Der,Löffel
-1367, tub ,Die,Wanne
-1368, clue ,Der,Schlüssel
-1369, iris ,Die,Iris
-1370, incident ,Der,Vorfall
-1371, crash ,Der,Absturz
-1372, journal ,Das,Tagebuch
-1373, access ,Die,Zugriffs
-1374, brass ,Der,Messing
-1375, mommy ,Die,Mama
-1376, sidebar ,Die,Seitenleiste
-1377, sheep ,Das,Schaf
-1378, engineer ,Der,Ingenieur
-1379, hull ,Der,Rumpf
-1380, odor ,Der,Geruch
-1381, appointment ,Der,Termin
-1382, invitation ,Die,Einladung
-1383, rag ,Die,Lappen
-1384, good ,Das,Gute
-1385, dude ,Der,Kumpel
-1386, treatment ,Die,Behandlung
-1387, wisdom ,Die,Weisheit
-1388, prize ,Der,Preis
-1389, element ,Das,Element
-1390, giant ,Der,Gigant
-1391, napkin ,Die,Serviette
-1392, laundry ,Die,Wäsche
-1393, option ,Die,Option
-1394, rack ,Das,Regal
-1395, request ,Die,Anforderung
-1396, jail ,Das,Gefängnis
-1397, grandpa ,Der,Opa
-1398, ranch ,Die,Ranch
-1399, dot ,Der,Punkt
-1400, script ,Das,Skript
-1401, mall ,Die,Einkaufshalle
-1402, ford ,Der,Ford
-1403, exercise ,Die,Übung
-1404, widow ,Die,Witwe
-1405, crow ,Die,Krähe
-1406, thread ,Der,Faden
-1407, suicide ,Die,Selbstmord
-1408, notice ,Die,Notiz
-1409, sunset ,Der,Sonnenuntergang
-1410, gallery ,Die,Gallerie
-1411, vessel ,Das,Schiff
-1412, thunder ,Der,Donner
-1413, soap ,Die,Seife
-1414, whiskey ,Der,Whisky
-1415, female ,Das,Weibchen
-1416, mayor ,Der,Bürgermeister
-1417, stroke ,Der,Hub
-1418, click ,Der,Klick
-1419, reputation ,Der,Ruf
-1420, miller ,Der,Müller
-1421, council ,Der,Rat
-1422, schedule ,Der,Stundenplan
-1423, cemetery ,Der,Friedhof
-1424, struggle ,Der,Kampf
-1425, instinct ,Der,Instinkt
-1426, calm ,Die,Ruhe
-1427, employee ,Der,Arbeitnehmer
-1428, nest ,Das,Nest
-1429, limit ,Das,Limit
-1430, german ,Der,Deutsche
-1431, monk ,Der,Mönch
-1432, worm ,Der,Wurm
-1433, document ,Das,Dokument
-1434, sadness ,Die,Traurigkeit
-1435, hut ,Die,Hütte
-1436, lifetime ,Die,Lebensdauer
-1437, dancer ,Die,Tänzerin
-1438, insurance ,Die,Versicherung
-1439, difficulty ,Die,Schwierigkeit
-1440, mattress ,Die,Matratze
-1441, male ,Der,Mann
-1442, clinic ,Die,Klinik
-1443, ad ,Die,Ad
-1444, mug ,Der,Becher
-1445, kit ,Das,Kit
-1446, communication ,Die,Kommunikation
-1447, disaster ,Das,Unglück
-1448, tile ,Die,Fliese
-1449, receiver ,Der,Empfänger
-1450, roar ,Das,Gebrüll
-1451, troop ,Die,Truppe
-1452, coffin ,Der,Sarg
-1453, friendship ,Die,Freundschaft
-1454, investigation ,Die,Ermittlung
-1455, sale ,Der,Verkauf
-1456, goal ,Das,Ziel
-1457, ambulance ,Der,Krankenwagen
-1458, moonlight ,Das,Mondlicht
-1459, ward ,Das,Mündel
-1460, trousers ,Die,Hosen
-1461, wool ,Die,Wolle
-1462, mac ,Die,Mac
-1463, minister ,Der,Minister
-1464, entry ,Der,Eintritt
-1465, thief ,Der,Dieb
-1466, briefcase ,Die,Aktentasche
-1467, pity ,Das,Mitleid
-1468, fingertip ,Die,Finger
-1469, navy ,Die,Marine
-1470, insect ,Das,Insekt
-1471, velvet ,Der,Samt
-1472, bee ,Die,Biene
-1473, cane ,Der,Stock
-1474, gene ,Das,Gen
-1475, salad ,Der,Salat
-1476, windshield ,Die,Windschutzscheibe
-1477, outfit ,Das,Outfit
-1478, shuttle ,Der,Shuttle
-1479, shout ,Der,Schrei
-1480, fury ,Die,Wut
-1481, challenge ,Die,Herausforderung
-1482, satisfaction ,Die,Zufriedenheit
-1483, motor ,Der,Motor
-1484, product ,Das,Produkt
-1485, weed ,Das,Unkraut
-1486, stretch ,Die,Strecke
-1487, gym ,Das,Fitnesscenter
-1488, capital ,Das,Kapital
-1489, rim ,Der,Rand
-1490, paw ,Die,Pfote
-1491, fort ,Die,Festung
-1492, cost ,Die,Kosten
-1493, poster ,Das,Plakat
-1494, vampire ,Der,Vampir
-1495, shaft ,Die,Welle
-1496, identity ,Die,Identität
-1497, pavement ,Der,Bürgersteig
-1498, asshole ,Das,Arschloch
-1499, strap ,Der,Gurt
-1500, parlor ,Das,Wohnzimmer
-1501, harbor ,Der,Hafen
-1502, example ,Das,Beispiel
-1503, web ,Das,Netz
-1504, golf ,Der,Golf
-1506, delight ,Die,Freude
-1507, quilt ,Die,Decke
-1508, tax ,Die,Steuer
-1509, fold ,Die,Falte
-1510, portrait ,Das,Porträt
-1511, tissue ,Das,Gewebe
-1512, belief ,Der,Glaube
-1513, costume ,Das,Kostüm
-1514, measure ,Das,Maß
-1515, carriage ,Der,Wagen
-1516, guitar ,Die,Gitarre
-1517, knight ,Der,Ritter
-1518, rank ,Der,Rang
-1519, major ,Der,Bürgermeister
-1520, fountain ,Der,Brunnen
-1521, stall ,Der,Stall
-1522, load ,Die,Ladung
-1523, spark ,Der,Funke
-1524, waste ,Der,Müll
-1525, champagne ,Der,Champagner
-1526, district ,Das,Viertel
-1527, protection ,Der,Schutz
-1528, judgment ,Das,Urteil
-1529, sympathy ,Die,Sympathie
-1530, violet ,Das,Violett
-1531, impact ,Der,Aufprall
-1532, disappointment ,Die,Enttäuschung
-1533, drinking ,Das,Trink
-1534, consciousness ,Das,Bewusstsein
-1535, handkerchief ,Das,Taschentuch
-1536, dancing ,Das,Tanzen
-1537, perfume ,Das,Parfüm
-1538, network ,Das,Netzwerk
-1539, claim ,Der,Anspruch
-1540, nun ,Die,Nonne
-1541, crown ,Die,Krone
-1542, railing ,Das,Geländer
-1543, license ,Die,Lizenz
-1544, mercy ,Die,Barmherzigkeit
-1545, balloon ,Der,Ballon
-1546, chaos ,Das,Chaos
-1547, fever ,Das,Fieber
-1548, locker ,Das,Schließfach
-1549, session ,Die,Sitzung
-1550, burst ,Die,Burst
-1551, peak ,Der,Spitzer
-1552, drum ,Die,Trommel
-1553, focus ,Der,Fokus
-1554, frog ,Der,Frosch
-1555, benefit ,Der,Vorteil
-1556, remark ,Die,Bemerkung
-1557, tide ,Die,Gezeiten
-1558, suspicion ,Der,Verdacht
-1559, jeep ,Der,Jeep
-1560, worry ,Die,Sorge
-1561, literature ,Die,Literatur
-1562, archer ,Der,Bogenschütze
-1563, household ,Der,Haushalt
-1564, powder ,Das,Pulver
-1565, shepherd ,Der,Hirte
-1566, lens ,Die,Linse
-1567, favorite ,Der,Favorit
-1568, madame ,Die,Madame
-1569, mansion ,Die,Villa
-1570, boom ,Der,Boom
-1571, lace ,Die,Spitze
-1572, review ,Die,Überprüfung
-1573, reception ,Die,Rezeption
-1574, scrap ,Der,Schrott
-1575, bead ,Der,Wulst
-1576, glare ,Die,Blendung
-1577, flow ,Die,Strömung
-1578, cafe ,Das,Cafe
-1579, status ,Der,Status
-1580, pounding ,Das,Pochen
-1581, rocket ,Die,Rakete
-1582, canyon ,Die,Schlucht
-1583, sorrow ,Die,Trauer
-1584, spider ,Die,Spinne
-1585, blast ,Die,Explosion
-1586, personality ,Die,Persönlichkeit
-1587, campus ,Der,Campus
-1588, curse ,Der,Fluch
-1589, staircase ,Das,Treppenhaus
-1590, urge ,Der,Drang
-1591, frustration ,Die,Frustration
-1592, pump ,Die,Pumpe
-1593, ease ,Die,Leichtigkeit
-1594, count ,Die,Zählung
-1595, solution ,Die,Lösung
-1596, jewelry ,Der,Schmuck
-1597, siren ,Die,Sirene
-1598, hit ,Der,Schlag
-1599, tradition ,Die,Tradition
-1600, curb ,Das,Leer
-1601, variety ,Die,Vielfalt
-1602, pirate ,Der,Pirat
-1603, description ,Die,Beschreibung
-1604, dear ,Der,Liebe
-1605, anxiety ,Die,Angst
-1606, pitch ,Die,Tonhöhe
-1607, pizza ,Die,Pizza
-1608, elephant ,Der,Elefant
-1609, politics ,Die,Politik
-1610, tennis ,Der,Tennis
-1611, hunger ,Der,Hunger
-1612, genius ,Das,Genie
-1613, goat ,Die,Ziege
-1614, victory ,Der,Sieg
-1615, combination ,Die,Kombination
-1616, affiliation ,Die,Zugehörigkeit
-1617, momma ,Das,Momma
-1618, cape ,Der,Umhang
-1619, headlight ,Der,Scheinwerfer
-1620, governor ,Der,Gouverneur
-1621, oxygen ,Die,Sauerstoff
-1622, bishop ,Der,Bischof
-1623, bundle ,Das,Bündel
-1624, development ,Die,Entwicklung
-1625, fingernail ,Der,Fingernagel
-1626, score ,Die,Punktzahl
-1627, mate ,Der,Steuermann
-1628, rider ,Der,Fahrer
-1629, orbit ,Die,Umlaufbahn
-1630, vine ,Der,Weinstock
-1631, suite ,Die,Suite
-1632, bartender ,Der,Barkeeper
-1633, coke ,Der,Koks
-1634, tune ,Die,Melodie
-1635, glory ,Die,Herrlichkeit
-1636, rabbi ,Der,Rabbi
-1637, surgery ,Die,Operation
-1638, cattle ,Das,Vieh
-1639, ritual ,Das,Ritual
-1640, greeting ,Die,Begrüßung
-1641, slice ,Die,Scheibe
-1642, homer ,Die,Homer
-1643, fireplace ,Der,Kamin
-1644, jersey ,Das,Trikot
-1645, media ,Die,Medien
-1646, pop ,Die,Pop
-1647, cargo ,Die,Fracht
-1648, inn ,Das,Gasthaus
-1649, deputy ,Der,Stellvertretende
-1650, despair ,Die,Verzweiflung
-1651, territory ,Das,Territorium
-1652, punch ,Der,Schlag
-1653, jazz ,Die,Jazz
-1654, hug ,Die,Umarmung
-1655, whistle ,Die,Pfeife
-1656, humanity ,Die,Menschlichkeit
-1657, craft ,Das,Handwerk
-1658, daylight ,Das,Tageslicht
-1659, worth ,Der,Wert
-1660, slip ,Der,Slip
-1661, armor ,Die,Rüstung
-1662, backpack ,Der,Rucksack
-1663, suggestion ,Der,Vorschlag
-1664, den ,Die,Höhle
-1665, symbol ,Das,Symbol
-1666, colony ,Die,Kolonie
-1667, conclusion ,Das,Fazit
-1668, nostril ,Das,Nasenloch
-1669, spear ,Der,Speer
-1670, impulse ,Der,Impuls
-1671, tomato ,Die,Tomate
-1672, calf ,Das,Kalb
-1673, autumn ,Der,Herbst
-1674, discovery ,Der,Fund
-1675, classroom ,Das,Klassenzimmer
-1676, delivery ,Die,Lieferung
-1677, spray ,Das,Spray
-1678, liquid ,Die,Flüssigkeit
-1679, fuel ,Die,Kraftstoff
-1680, underwear ,Die,Unterwäsche
-1681, dome ,Die,Kuppel
-1682, population ,Die,Bevölkerung
-1683, affection ,Die,Neigung
-1684, religion ,Die,Religion
-1685, singer ,Der,Sänger
-1686, attendant ,Der,Begleiter
-1687, illusion ,Die,Illusion
-1688, link ,Der,Link
-1689, lounge ,Das,Wohnzimmer
-1690, interior ,Der,Innenraum
-1691, shrug ,Die,Achselzucken
-1692, zone ,Die,Zone
-1693, standard ,Der,Standard
-1694, coal ,Die,Kohlen
-1695, chase ,Die,Jagd
-1696, lump ,Der,Klumpen
-1697, charm ,Der,Charm
-1698, legend ,Die,Legende
-1699, consequence ,Die,Konsequenz
-1700, observation ,Die,Beobachtung
-1701, bicycle ,Das,Fahrrad
-1702, harm ,Der,Schaden
-1703, pay ,Die,Zahlung
-1704, prospect ,Das,Prospekt
-1705, subway ,Die,UBahn
-1706, sample ,Das,Muster
-1707, cherry ,Die,Kirsche
-1708, dealer ,Der,Händler
-1709, assignment ,Die,Zuordnung
-1710, hurry ,Die,Eile
-1711, mistress ,Die,Geliebte
-1712, mound ,Der,Hügel
-1713, nonsense ,Der,Unsinn
-1714, committee ,Das,Komitee
-1715, echo ,Das,Echo
-1716, slack ,Der,Durchhang
-1717, decker ,Die,Decker
-1718, warehouse ,Das,Warenhaus
-1719, bout ,Der,Kampf
-1720, toast ,Der,Toast
-1721, facility ,Die,Einrichtung
-1722, basketball ,Der,Basketball
-1723, mustache ,Der,Schnurrbart
-1724, senator ,Der,Senator
-1725, share ,Das,Teilen
-1726, eyelid ,Das,Augenlid
-1727, enthusiasm ,Die,Begeisterung
-1728, chunk ,Die,Chunk
-1729, turtle ,Die,Schildkröte
-1730, alcohol ,Der,Alkohol
-1731, gum ,Die,Gummi
-1732, turkey ,Der,Truthahn
-1733, preacher ,Der,Prediger
-1734, possession ,Der,Besitz
-1735, dolly ,Der,Dolly
-1736, linen ,Das,Leinen
-1737, apology ,Die,Entschuldigung
-1738, lecture ,Der,Vortrag
-1739, boulder ,Der,Stein
-1740, heap ,Der,Heap
-1741, photographer ,Der,Fotograf
-1742, brake ,Die,Bremse
-1743, demand ,Die,Nachfrage
-1744, apron ,Die,Schürze
-1745, cloak ,Der,Mantel
-1746, jury ,Die,Jury
-1747, hearing ,Die,Anhörung
-1748, gray ,Das,Graue
-1749, crate ,Die,Kiste
-1750, method ,Die,Methode
-1751, reference ,Die,Referenz
-1752, disgust ,Der,Ekel
-1753, liquor ,Die,Flotte
-1754, lipstick ,Der,Lippenstift
-1755, core ,Der,Kern
-1756, individual ,Der,Einzelne
-1757, container ,Der,Container
-1758, whore ,Die,Hure
-1759, infant ,Das,Kleinkind
-1760, sunglasses ,Die,Sonnenbrille
-1761, hose ,Der,Schlauch
-1762, concert ,Das,Konzert
-1763, bullshit ,Das,Bullshit
-1764, railroad ,Die,Eisenbahn
-1765, parade ,Die,Parade
-1766, compartment ,Das,Fach
-1767, resident ,Der,Bewohner
-1768, oven ,Der,Backofen
-1769, technician ,Der,Techniker
-1770, procedure ,Das,Verfahren
-1771, fighter ,Der,Kämpfer
-1772, grain ,Das,Korn
-1773, picnic ,Das,Picknick
-1774, tribe ,Der,Stamm
-1775, bud ,Die,Knospe
-1776, meadow ,Die,Wiese
-1777, public ,Die,Öffentlichkeit
-1778, poison ,Das,Gift
-1779, buffalo ,Der,Büffel
-1780, region ,Die,Region
-1781, production ,Die,Produktion
-1782, running ,Das,Rennen
-1783, loop ,Die,Schleife
-1784, sleeping ,Der,Schlaf
-1785, soda ,Die,Soda
-1786, owl ,Die,Eule
-1787, menu ,Das,Menü
-1788, kick ,Der,Kick
-1789, ruin ,Die,Ruine
-1790, ramp ,Die,Rampe
-1791, streak ,Der,Streifen
-1792, forearm ,Der,Unterarm
-1793, bureau ,Das,Büro
-1794, knuckle ,Der,Achsschenkel
-1795, goose ,Die,Gans
-1796, advance ,Der,Vormarsch
-1797, fairy ,Die,Fee
-1798, illness ,Die,Krankheit
-1799, squad ,Die,Mannschaft
-1800, official ,Das,Offizielle
-1801, brand ,Die,Marke
-1802, organ ,Die,Orgel
-1803, butterfly ,Der,Schmetterling
-1804, empire ,Das,Reich
-1805, profile ,Das,Profil
-1806, liberty ,Die,Freiheit
-1807, disbelief ,Der,Unglaube
-1808, grove ,Der,Hain
-1809, shield ,Das,Schild
-1810, saddle ,Der,Sattel
-1811, odds ,Die,Chancen
-1812, cluster ,Die,Cluster
-1813, satellite ,Der,Satellit
-1814, trigger ,Der,Abzug
-1815, puppy ,Der,Welpe
-1816, waiting ,Die,Warte
-1817, bulb ,Die,Glühbirne
-1818, dresser ,Die,Kommode
-1819, patrol ,Die,Patrouille
-1820, eagle ,Der,Adler
-1821, privacy ,Der,Privatsphäre
-1822, fluid ,Das,Fluid
-1823, herd ,Die,Herde
-1824, headache ,Der,Kopfschmerz
-1825, amusement ,Der,Vergnügungspark
-1826, wheelchair ,Der,Rollstuhl
-1827, policy ,Die,Richtlinie
-1828, belle ,Das,Belle
-1829, tobacco ,Die,Tabak
-1830, setting ,Die,Einstellung
-1831, tattoo ,Die,Tätowierung
-1832, burden ,Die,Last
-1833, merchant ,Der,Händler
-1834, slide ,Die,Rutsche
-1835, stain ,Der,Fleck
-1836, eating ,Das,Essen
-1837, bond ,Die,Bindung
-1838, swimming ,Das,Schwimmen
-1839, foundation ,Die,Grundlage
-1840, injury ,Die,Verletzung
-1841, league ,Die,Liga
-1842, battery ,Die,Batterie
-1843, umbrella ,Der,Regenschirm
-1844, emperor ,Der,Kaiser
-1845, pier ,Der,Pier
-1846, tap ,Der,Wasserhahn
-1847, wit ,Der,Witz
-1848, cutter ,Der,Cutter
-1849, attic ,Der,Dachboden
-1850, tiger ,Der,Tiger
-1851, pal ,Die,Pal
-1852, ancestor ,Der,Vorfahr
-1853, concentration ,Die,Konzentration
-1854, mount ,Der,Berg
-1855, expense ,Der,Aufwand
-1856, blessing ,Der,Segen
-1857, leave ,Der,Urlaub
-1858, ledge ,Die,Leiste
-1859, torch ,Die,Fackel
-1860, ink ,Die,Tinten
-1861, plot ,Die,Handlung
-1862, rent ,Die,Miete
-1863, mule ,Das,Maultier
-1864, arch ,Der,Bogen
-1865, environment ,Die,Umgebung
-1866, frown ,Das,Stirnrunzeln
-1867, inspector ,Der,Inspektor
-1868, midst ,Die,Mitten
-1869, embarrassment ,Die,Verlegenheit
-1870, complaint ,Die,Beschwerde
-1871, portion ,Die,Portion
-1872, chuck ,Das,Spannfutter
-1873, clearing ,Die,Clearing
-1874, crisis ,Die,Krise
-1875, necklace ,Die,Halskette
-1876, lantern ,Die,Laterne
-1877, wealth ,Der,Reichtum
-1878, murderer ,Der,Mörder
-1879, civilization ,Die,Zivilisation
-1880, concept ,Das,Konzept
-1881, lamb ,Das,Lamm
-1882, stride ,Die,Schritt
-1883, cuff ,Die,Manschette
-1884, virgin ,Die,Jungfrau
-1885, squirrel ,Das,Eichhörnchen
-1886, babe ,Das,Kind
-1887, starling ,Der,Star
-1888, depression ,Die,Depression
-1889, storage ,Das,Speicher
-1890, altar ,Der,Altar
-1891, tragedy ,Die,Tragödie
-1892, resource ,Die,Ressource
-1893, traveler ,Der,Reisende
-1894, trust ,Das,Vertrauen
-1895, arc ,Die,Bogen
-1896, kingdom ,Das,Königreich
-1897, jewel ,Das,Juwel
-1898, musician ,Der,Musiker
-1899, airplane ,Das,Flugzeug
-1900, junk ,Die,Junk
-1901, sunshine ,Der,Sonnenschein
-1902, lad ,Der,Knabe
-1903, elf ,Der,Elf
-1904, protest ,Der,Protest
-1905, hunt ,Die,Jagd
-1906, executive ,Die,Exekutive
-1907, diary ,Das,Tagebuch
-1908, aspect ,Das,Aspekt
-1909, dial ,Das,Zifferblatt
-1910, slipper ,Der,Hausschuh
-1911, actress ,Die,Schauspielerin
-1912, shooting ,Das,Shooting
-1913, earring ,Der,Ohrring
-1914, ant ,Die,Ameise
-1915, patty ,Die,Patty
-1916, sauce ,Die,Sauce
-1917, missile ,Die,Rakete
-1918, intensity ,Die,Intensität
-1919, ditch ,Der,Graben
-1920, daisy ,Das,Gänseblümchen
-1921, chapel ,Die,Kapelle
-1922, swamp ,Der,Sumpf
-1923, relation ,Die,Beziehung
-1924, guess ,Die,Vermutung
-1925, crane ,Der,Kran
-1926, encounter ,Die,Begegnung
-1927, sequence ,Die,Sequenz
-1928, fragment ,Das,Fragment
-1929, draft ,Der,Entwurf
-1930, diner ,Das,Diner
-1931, function ,Die,Funktion
-1932, organization ,Die,Organisation
-1933, skeleton ,Das,Skelett
-1934, misery ,Das,Elend
-1935, herb ,Das,Kraut
-1936, stump ,Der,Stumpf
-1937, stake ,Der,Einsatz
-1938, puff ,Die,Puff
-1939, creation ,Die,Kreation
-1940, wake ,Das,Gefolge
-1941, wizard ,Der,Zauberer
-1942, mat ,Die,Matte
-1943, seal ,Die,Dichtung
-1944, twilight ,Das,Zwielicht
-1945, grunt ,Das,Grunzen
-1946, punishment ,Die,Strafe
-1947, clan ,Der,Clan
-1948, copper ,Das,Kupfer
-1949, debris ,Die,Trümmer
-1950, painter ,Der,Maler
-1951, steering ,Das,Steuer
-1952, math ,Die,Mathematik
-1953, recognition ,Die,Erkennung
-1954, temper ,Die,Stimmung
-1955, regret ,Das,Bedauern
-1956, destination ,Das,Ziel
-1957, mill ,Die,Mühle
-1958, error ,Der,Fehler
-1959, romance ,Die,Romantik
-1960, topic ,Das,Thema
-1961, patio ,Die,Terrasse
-1962, shovel ,Die,Schaufel
-1963, pajamas ,Die,Schlafanzüge
-1964, email ,Die,Email
-1965, pigeon ,Die,Taube
-1966, dinosaur ,Der,Dinosaurier
-1967, industry ,Die,Branche
-1968, operator ,Der,Betreiber
-1969, lift ,Der,Lift
-1970, counselor ,Der,Ratgeber
-1971, gathering ,Die,Versammlung
-1972, principle ,Das,Prinzip
-1973, drama ,Das,Drama
-1974, chick ,Das,Küken
-1975, chart ,Das,Diagramm
-1976, campaign ,Die,Kampagne
-1977, laurel ,Der,Lorbeer
-1978, steak ,Das,Steak
-1979, criminal ,Der,Kriminelle
-1980, globe ,Der,Globus
-1981, bruise ,Der,Bluterguss
-1982, knob ,Der,Knopf
-1983, killing ,Das,Töten
-1984, sweetheart ,Der,Schatz
-1985, opera ,Die,Oper
-1986, frost ,Der,Frost
-1987, nipple ,Der,Nippel
-1988, reverend ,Der,Pfarrer
-1989, haze ,Die,Trübung
-1990, flood ,Das,Hochwasser
-1991, carol ,Das,Weihnachtslied
-1992, weakness ,Die,Schwäche
-1993, cooking ,Das,Kochen
-1994, butcher ,Der,Metzger
-1995, cube ,Der,Würfel
+0,Contestadores,Die,Anrufbeantworter
+1,Anuncios,Die,Ansagen
+2,Conexiones,Die,Anschlüsse
+3,Respuestas,Die,Antworten
+4,Anuncios,Die,Anzeigen
+5,Departamentos,Die,Apartments
+6,Manzanas,Die,Äpfel
+7,Apetitos,Die,Appetite
+8,Trabajos,Die,Arbeiten
+9,Empleos,Die,Arbeitsplätze
+10,Brazos,Die,Arme
+11,Médicos,Die,Ärzte
+12,Tareas,Die,Aufgaben
+13,Ascensores,Die,Aufzüge
+14,Ojos,Die,Augen
+15,Excursiones,Die,Ausflüge
+16,Salidas,Die,Ausgänge
+17,Informaciones,Die,Auskünfte
+18,Extranjero,Der,Ausländer
+19,Declaraciones,Die,Aussagen
+20,Identificationes,Die,Ausweise
+21,Autopistas,Die,Autobahnen
+22,Cajeros,Die,Automaten
+23,Autos,Die,Autos
+24,Panaderías,Die,Bäckereien
+25,Baños,Die,Bäder
+26,Trenes,Die,Bahnen
+27,Estaciones,Die,Bahnhöfe
+28,Andenes,Die,Bahnsteige
+29,Balcones,Die,Balkons
+30,Bananas,Die,Bananen
+31,Bancos,Die,Bänke
+32,Barrigas,Die,Bäuche
+33,Árboles,Die,Bäume
+34,Funcionarios,Die,Beamten
+35,Piernas,Die,Beine
+36,Ejemplos,Die,Beispiele
+37,Conocidos,Die,Bekannten
+38,Profesiones,Die,Berufe
+39,Camas,Die,Betten
+40,Cervezas,Die,Biere
+41,Peras,Die,Birnen
+42,Favores,Die,Bitten
+43,Lápices,Die,Bleistifte
+44,Miradas,Die,Blicke
+45,Flores,Die,Blumen
+46,Arcos,Die,Bögen
+47,Cartas,Die,Briefe
+48,Sellos,Die,Briefmarken
+49,Pancitos,Die,Brötchen
+50,Panes,Die,Brote
+51,Libros,Die,Bücher
+52,Letras,Die,Buchstaben
+53,Oficinas,Die,Büros
+54,Cafeterías,Die,Cafés
+55,Cds,Die,Cds
+56,Jefes,Die,Chefs
+57,Computadoras,Die,Computer
+58,Cremas,Die,Cremes
+59,Techos,Die,Dächer
+60,Dama,Die,Damen
+61,Edad,Das,Alter
+62,Oferta,Das,Angebot
+63,Departamento,Das,Apartment
+64,Ojo,Das,Auge
+65,Auto,Das,Auto
+66,Baño,Das,Bad
+67,Pierna,Das,Bein
+68,Ejemplo,Das,Beispiel
+69,Cama,Das,Bett
+70,Cerveza,Das,Bier
+71,Pan,Das,Brot
+72,Pancito,Das,Brötchen
+73,Libro,Das,Buch
+74,La Oficina,Das,Büro
+75,Cafetería,Das,Café
+76,Techo,Das,Dach
+77,Fecha,Das,Datum
+78,Habitación Doble,Das,Doppelzimmer
+79,Pueblo,Das,Dorf
+80,Huevo,Das,Ei
+81,Habitación Simple,Das,Einzelzimmer
+82,Helado,Das,Eis
+83,Final,Das,Ende
+84,Planta Baja,Das,Erdgeschoss
+85,Resultado,Das,Ergebnis
+86,Comida,Das,Essen
+87,Bicicleta,Das,Fahrrad
+88,Fax,Das,Fax
+89,Ventana,Das,Fenster
+90,Televisión,Das,Fernsehgerät
+91,Fiesta,Das,Fest
+92,Fuego,Das,Feuer
+93,Encendedor,Das,Feuerzeug
+94,Fiebre,Das,Fieber
+95,Carne,Das,Fleisch
+96,Avión,Das,Flugzeug
+97,Formulario,Das,Formular
+98,Foto ,Das,Foto
+99,Desayuno,Das,Frühstück
+100,Lostandfound,Das,Fundbüro
+101,Gas,Das,Gas
+102,Año De Nacimiento,Das,Geburtsjahr
+103,Opuesto,Das,Gegenteil
+104,Dinero,Das,Geld
+105,Verdura,Das,Gemüse
+106,Equipaje,Das,Gepäck
+107,Negocio,Das,Geschäft
+108,Regalo,Das,Geschenk
+109,Vajilla,Das,Geschirr
+110,Rostro,Das,Gesicht
+111,Conversación,Das,Gespräch
+112,Bebida,Das,Getränk
+113,Peso,Das,Gewicht
+114,Tormenta,Das,Gewitter
+115,Vaso,Das,Glas
+116,Vía,Das,Gleis
+117,Suerte,Das,Glück
+118,Pelo,Das,Haar
+119,Pollo,Das,Hähnchen
+120,Toalla,Das,Handtuch
+121,Celular,Das,Handy
+122,Casa,Das,Haus
+123,Camisa,Das,Hemd
+124,Corazón,Das,Herz
+125,Pasatiempo,Das,Hobby
+126,Madera,Das,Holz
+127,Hotel,Das,Hotel
+128,Internet,Das,Internet
+129,Vehículo,Das,Kfz
+130,Niñx,Das,Kind
+131,Cine,Das,Kino
+132,Vestido,Das,Kleid
+133,Consulado,Das,Konsulat
+134,Cuenta,Das,Konto
+135,Depósito,Das,Lager
+136,País,Das,Land
+137,Vida,Das,Leben
+138,Luz,Das,Licht
+139,Canción,Das,Lied
+140,Agujero,Das,Loch
+141,Local,Das,Lokal
+142,Chica,Das,Mädchen
+143,Vez,Das,Mal
+144,Material,Das,Material
+145,Medicamento,Das,Medikament
+146,Mar,Das,Meer
+147,Cuchillo,Das,Messer
+148,Metal,Das,Metall
+149,Mitad,Das,Mittel
+150,Museo,Das,Museum
+151,Fruta,Das,Obst
+152,Aceite,Das,Öl
+153,Envoltorio,Das,Päckchen
+154,Paquete,Das,Paket
+155,Papel,Das,Papier
+156,Perfume,Das,Parfüm
+157,Plástico,Das,Plastik
+158,Pasantías,Das,Praktikum
+159,Problema,Das,Problem
+160,Producto,Das,Produkt
+161,Programa,Das,Programm
+162,Radio,Das,Radio
+163,Ayuntamiento,Das,Rathaus
+164,Agencia De Viaje,Das,Reisebüro
+165,Restaurante,Das,Restaurant
+166,Receta,Das,Rezept
+167,Carne Vacuna,Das,Rind
+168,Sal,Das,Salz
+169,Enbarcación,Das,Schiff
+170,Cartel,Das,Schild
+171,Candado,Das,Schloss
+172,Cerdo,Das,Schwein
+173,Picina,Das,Schwimmbad
+174,Sofá,Das,Sofa
+175,Oferta,Das,Sonderangebot
+176,Oficina De Registro,Das,Standesamt
+177,Fósforo,Das,Streichholz
+178,Pedazo,Das,Stück
+179,Carrera,Das,Studium
+180,Taxi,Das,Taxi
+181,Teléfono,Das,Telefon
+182,Directorio Telefónico,Das,Telefonbuch
+183,Teatro,Das,Theater
+184,Tema,Das,Thema
+185,Boleto,Das,Ticket
+186,Animal,Das,Tier
+187,Propina,Das,Trinkgeld
+188,Video,Das,Video
+189,Agua,Das,Wasser
+190,Herramienta,Das,Werkzeug
+191,Tiempo,Das,Wetter
+192,Adiós,Das,Wiederhören
+193,Adiós,Das,Wiedersehen
+194,Palabra,Das,Wort
+195,Centro,Das,Zentrum
+196,Nota,Das,Zeugnis
+197,Habitación,Das,Zimmer
+198,Fechas,Die,Daten
+199,Despegue,Der,Abflug
+200,Remitente,Der,Absender
+201,Comienzo,Der,Anfang
+202,Llamada,Der,Anruf
+203,Contestador,Der,Anrufbeantworter
+204,Conexción,Der,Anschluss
+205,Manzana,Der,Apfel
+206,Apetito,Der,Appetit
+207,Empleo,Der,Arbeitsplatz
+208,Brazo,Der,Arm
+209,Médico,Der,Arzt
+210,Ascensor,Der,Aufzug
+211,Excursión,Der,Ausflug
+212,Salida,Der,Ausgang
+213,Extranjero,Der,Ausländer
+214,Identificación,Der,Ausweis
+215,Cajero,Der,Automat
+216,Estación De Trenes,Der,Bahnhof
+217,Andén,Der,Bahnsteig
+218,Balcón,Der,Balkon
+219,Barriga,Der,Bauch
+220,Árbol,Der,Baum
+221,Funcionario,Der,Beamte
+222,Profesión,Der,Beruf
+223,Lápiz,Der,Bleistift
+224,Mirada,Der,Blick
+225,Arco,Der,Bogen
+226,Carta,Der,Brief
+227,Letra,Der,Buchstabe
+228,Jefe,Der,Chef
+229,Computadora,Der,Computer
+230,Agradecimiento,Der,Dank
+231,El Gasóleo,Der,Diesel
+232,Doctor,Der,Doktor
+233,Impresora,Der,Drucker
+234,Sed,Der,Durst
+235,Esposo,Der,Ehemann
+236,Entrada,Der,Eingang
+237,Entrada,Der,Eintritt
+238,Habitante,Der,Einwohner
+239,Recepción,Der,Empfang
+240,Destinario,Der,Empfänger
+241,Nieto,Der,Enkel
+242,Adulto,Der,Erwachsene
+243,Exportación,Der,Export
+244,Conductor,Der,Fahrer
+245,Horario,Der,Fahrplan
+246,Apellido,Der,Familienname
+247,Estado Civil,Der,Familienstand
+248,Error,Der,Fehler
+249,Fin De Jornada Laboral,Der,Feierabend
+250,Feriado,Der,Feiertag
+251,Película,Der,Film
+252,Pez,Der,Fisch
+253,Aeropuerto,Der,Flughafen
+254,Pasillo,Der,Flur
+255,Río,Der,Fluss
+256,Camara,Der,Fotoapparat
+257,Amigo,Der,Freund
+258,Licencia,Der,Führerschein
+259,Pie,Der,Fuß
+260,Pelota,Der,Fußball
+261,Jardín,Der,Garten
+262,Invitado,Der,Gast
+263,Lugar De Nacimiento,Der,Geburtsort
+264,Cumpleaños,Der,Geburtstag
+265,Cajero,Der,Geldautomat
+266,Felicitaciones,Der,Glückwunsch
+267,Abuelo,Der,Großvater
+268,Saludo,Der,Gruß
+269,Cuello,Der,Hals
+270,Hogar,Der,Haushalt
+271,Amo De Casa,Der,Hausmann
+272,Cocina,Der,Herd
+273,Señor,Der,Herr
+274,Perro,Der,Hund
+275,Hambre,Der,Hunger
+276,Importación,Der,Import
+277,Contenido,Der,Inhalt
+278,Trabajo,Der,Job
+279,Adolecente,Der,Jugendliche
+280,Chico,Der,Junge
+281,Café,Der,Kaffee
+282,Calendario,Der,Kalender
+283,Queso,Der,Käse
+284,Reproductor,Der,Kassettenrecorder
+285,Sótano,Der,Keller
+286,Mozo,Der,Kellner
+287,Jardín Infantil,Der,Kindergarten
+288,Cochecito (Pram),Der,Kinderwagen
+289,Quiosco,Der,Kiosk
+290,Valija,Der,Koffer
+291,Colega,Der,Kollege
+292,Contacto,Der,Kontakt
+293,Cabeza,Der,Kopf
+294,Cuerpo,Der,Körper
+295,Crédito,Der,Kredit
+296,Cíclo,Der,Kreis
+297,Pastel,Der,Kuchen
+298,Birome,Der,Kugelschreiber
+299,Heladera,Der,Kühlschrank
+300,Cliente,Der,Kunde
+301,Curso,Der,Kurs
+302,Tienda,Der,Laden
+303,Maestro,Der,Lehrer
+304,Camión,Der,Lastkrafwagen
+305,Cuchara,Der,Löffel
+306,Sueldo,Der,Lohn
+307,Estómago,Der,Magen
+308,Hombre,Der,Mann
+309,Campera,Der,Mantel
+310,Mercado,Der,Markt
+311,Mecánico,Der,Mechaniker
+312,Hombre,Der,Mensch
+313,Momento,Der,Moment
+314,Motor,Der,Motor
+315,Residuos,Der,Müll
+316,Boca,Der,Mund
+317,Vecino,Der,Nachbar
+318,Nombre,Der,Name
+319,Neblina,Der,Nebel
+320,Médico,Der,Notarzt
+321,Emergencia,Der,Notfall
+322,Aceite,Der,Ober
+323,Abuelo,Der,Opa
+324,Sitio,Der,Ort
+325,Parque,Der,Park
+326,Compañero,Der,Partner
+327,Pasaporte,Der,Pass
+328,Coche,Der,Personenkraftwagen
+329,Plan,Der,Plan
+330,Plaza,Der,Platz
+331,Precio,Der,Preis
+332,Folleto,Der,Prospekt
+333,Pullover,Der,Pullover
+334,Descuento,Der,Rabatt
+335,Fumador,Der,Raucher
+336,Cuarto,Der,Raum
+337,Lluvia,Der,Regen
+338,Maduro,Der,Reifen
+339,Arroz,Der,Reis
+340,Guía Turístico,Der,Reiseführer
+341,Pollera,Der,Rock
+342,Parte Trasera,Der,Rücken
+343,Excursión,Der,Rundgang
+344,Jugo,Der,Saft
+345,Ensalada,Der,Salat
+346,Oración,Der,Satz
+347,Mostrador,Der,Schalter
+348,Jamón,Der,Schinken
+349,Pantalla,Der,Schirm
+350,Cierre,Der,Schluss
+351,Llave,Der,Schlüssel
+352,Nieve,Der,Schnee
+353,Resfriado,Der,Schnupfen
+354,Armario,Der,Schrank
+355,Zapato,Der,Schuh
+356,Alumno,Der,Schüler
+357,Lago,Der,See
+358,Servicio,Der,Service
+359,Sillón,Der,Sessel
+360,Hijo,Der,Sohn
+361,Diversión,Der,Spaß
+362,Caminata,Der,Spaziergang
+363,Patio De Juego,Der,Spielplatz
+364,Deporte,Der,Sport
+365,Planta,Der,Stock
+366,Material,Der,Stoff
+367,Playa,Der,Strand
+368,Electricidad,Der,Strom
+369,Estudiante,Der,Student
+370,Silla,Der,Stuhl
+371,Supermercado,Der,Supermarkt
+372,Té,Der,Tee
+373,Arte,Der,Teil
+374,Plato,Der,Teller
+375,Alfombra,Der,Teppich
+376,Cita,Der,Termin
+377,Prueba,Der,Test
+378,Propina,Der,Tipp
+379,Mesa,Der,Tisch
+380,Pote,Der,Topf
+381,Turista,Der,Tourist
+382,Torre,Der,Turm
+383,Accidente,Der,Unfall
+384,Clases,Der,Unterricht
+385,Desnivel,Der,Unterschied
+386,Vacaciones,Der,Urlaub
+387,Padre,Der,Vater
+388,Club,Der,Verein
+389,Vendedor,Der,Verkäufer
+390,Tráfico,Der,Verkehr
+391,Locatario,Der,Vermieter
+392,Contrato De Alquiler,Der,Vertrag
+393,Pariente,Der,Verwandte
+394,Ave,Der,Vogel
+395,Nombre,Der,Vorname
+396,Vehículo,Der,Wagen
+397,Bosque,Der,Wald
+398,Vía,Der,Weg
+399,Vino,Der,Wein
+400,Viento,Der,Wind
+401,Deseo,Der,Wunsch
+402,Diente,Der,Zahn
+403,Nota,Der,Zettel
+404,Aduana,Der,Zoll
+405,Conocido,Der,Bekannte
+406,Salida,Die,Abfahrt
+407,Salida,Die,Abfahrten
+408,Remitente,Die,Absender
+409,Dirección,Die,Adresse
+410,Dirección,Die,Adressen
+411,Comienzo,Die,Anfänge
+412,Oferta,Die,Angebote
+413,Llegada,Die,Ankunft
+414,Llegada,Die,Ankünfte
+415,Registro,Die,Anmeldung
+416,Registro,Die,Anmeldungen
+417,Tratamiento,Die,Anrede
+418,Tratamiento,Die,Anreden
+419,Llamada,Die,Anrufe
+420,Anuncio,Die,Ansage
+421,Respuesta,Die,Antwort
+422,Anuncio,Die,Anzeige
+423,Trabajo,Die,Arbeit
+424,Tarea,Die,Aufgabe
+425,Despegue,Die,Ausflüge
+426,Información,Die,Auskunft
+427,Declaración,Die,Aussage
+428,Autopista,Die,Autobahn
+429,Panadería,Die,Bäckerei
+430,Tren,Die,Bahn
+431,Banana,Die,Banane
+432,Banco,Die,Bank
+433,Pera,Die,Birne
+434,Favor,Die,Bitte
+435,Flor,Die,Blume
+436,Estampilla,Die,Briefmarke
+437,Manteca,Die,Butter
+438,Cd,Die,Cd
+439,Crema,Die,Creme
+440,Dama,Die,Dame
+441,Duración,Die,Dauer
+442,Discoteca,Die,Disco
+443,Lata,Die,Dose
+444,Anuncio,Die,Durchsage
+445,Ducha,Die,Dusche
+446,Email,Die,E-Mail
+447,Esquina,Die,Ecke
+448,Esposa,Die,Ehefrau
+449,Introducción,Die,Einführung
+450,Invitación,Die,Einladung
+451,Padres,Die,Eltern
+452,Nieta,Die,Enkelin
+453,Disculpa,Die,Entschuldigung
+454,Experencia,Die,Erfahrung
+455,Permiso,Die,Erlaubnis
+456,Rebaja,Die,Ermäßigung
+457,Fábrica,Die,Fabrik
+458,Ferry,Die,Fähre
+459,Boleto,Die,Fahrkarte
+460,Familia,Die,Familie
+461,Color,Die,Farbe
+462,Vacaciones,Die,Ferien
+463,Bomberos,Die,Feuerwehr
+464,Empresa,Die,Firma
+465,Botella,Die,Flasche
+466,Pregunta,Die,Frage
+467,Mujer,Die,Frau
+468,Tiempo Libre,Die,Freizeit
+469,Plazo,Die,Frist
+470,Guía,Die,Führung
+471,Tenedor,Die,Gabel
+472,Garaje,Die,Garage
+473,Garantia,Die,Garantie
+474,Cuota,Die,Gebühr
+475,Cartera,Die,Geldbörse
+476,Hermanos,Die,Geschwister
+477,Frontera,Die,Grenze
+478,Gripe,Die,Grippe
+479,Tamaño,Die,Größe
+480,Abuelos,Die,Großeltern
+481,Abuela,Die,Großmutter
+482,Grupo,Die,Gruppe
+483,Media Pensión,Die,Halbpension
+484,Sala,Die,Halle
+485,Parada,Die,Haltestelle
+486,Mano,Die,Hand
+487,Tarea,Die,Hausaufgabe
+488,Empleada Domestica,Die,Hausfrau
+489,Patria,Die,Heimat
+490,Calefacción,Die,Heizung
+491,Ayuda,Die,Hilfe
+492,Boda,Die,Hochzeit
+493,Pantalón,Die,Hose
+494,Idea,Die,Idee
+495,Industria,Die,Industrie
+496,Información,Die,Information
+497,Campera,Die,Jacke
+498,Cámara,Die,Kamera
+499,Jarra,Die,Kanne
+500,Tarjeta,Die,Karte
+501,Papa,Die,Kartoffel
+502,Caja,Die,Kasse
+503,Cassette,Die,Kassette
+504,Gato,Die,Katze
+505,Conocimientos,Die,Kenntnisse
+506,Collar,Die,Kette
+507,Iglesia,Die,Kirche
+508,Clase,Die,Klasse
+509,Ropa,Die,Kleidung
+510,Pub,Die,Kneipe
+511,Control,Die,Kontrolle
+512,Cosmetico,Die,Kosmetik
+513,Seguro Medico,Die,Krankenkasse
+514,Enfermedad,Die,Krankheit
+515,Tarjeta De Crédito,Die,Kreditkarte
+516,Encrucijada,Die,Kreuzung
+517,Cocina,Die,Küche
+518,Terminación,Die,Kündigung
+519,Lámpara,Die,Lampe
+520,Paisaje,Die,Landschaft
+521,Alimentos,Die,Lebensmittel
+522,Enseñanza,Die,Lehre
+523,Gente,Die,Leute
+524,Solución,Die,Lösung
+525,Aire,Die,Luft
+526,Deseo,Die,Lust
+527,Máquina,Die,Maschine
+528,Valor Agregado,Die,Mehrwertsteuer
+529,Opinión,Die,Meinung
+530,Cantidad,Die,Menge
+531,Alquiler,Die,Miete
+532,Leche,Die,Milch
+533,Mitad,Die,Mitte
+534,Comunicado,Die,Mitteilung
+535,Muebles,Die,Möbel
+536,Moda,Die,Mode
+537,Bote De Basura,Die,Mülltonne
+538,Música,Die,Musik
+539,Madre,Die,Mutter
+540,Noticias,Die,Nachrichten
+541,Cercanía,Die,Nähe
+542,Naturaleza,Die,Natur
+543,Nota,Die,Note
+544,Apunte,Die,Notiz
+545,Fideo,Die,Nudel
+546,Número,Die,Nummer
+547,Abuela,Die,Oma
+548,Operación,Die,Operation
+549,Naranja,Die,Orange
+550,Órden,Die,Ordnung
+551,Desglose,Die,Panne
+552,Documentación,Die,Papiere
+553,Compañera,Die,Partnerin
+554,Fiesta,Die,Party
+555,Pausa,Die,Pause
+556,Jubilación,Die,Pension
+557,Policía,Die,Polizei
+558,Papas Fritas,Die,Pommesfrites
+559,Correo,Die,Post
+560,Código Postal,Die,Postleitzahl
+561,Consultorio,Die,Praxis
+562,Exámen,Die,Prüfung
+563,Calidad,Die,Qualität
+564,Recibo,Die,Quittung
+565,Cuenta,Die,Rechnung
+566,Limpieza,Die,Reinigung
+567,Viaje,Die,Reise
+568,Arreglo,Die,Reparatur
+569,Recepción,Die,Rezeption
+570,Rosa,Die,Rose
+571,Tren Metropolitano,Die,S-Bahn
+572,Cosa,Die,Sache
+573,Dolor,Die,Schmerzen
+574,Chocolate,Die,Schokolade
+575,Colegio,Die,Schule
+576,Hermana,Die,Schwester
+577,Atracción,Die,Sehenswürdigkeit
+578,Jabón,Die,Seife
+579,Secretaria,Die,Sekretärin
+580,Trasmisión,Die,Sendung
+581,Adultos,Die,Senioren(Pl.)
+582,Sol,Die,Sonne
+583,Preocupación,Die,Sorge
+584,Menú,Die,Speisekarte
+585,Lengua,Die,Sprache
+586,Consulta,Die,Sprechstunde
+587,Lavavajillas,Die,Spülmaschine
+588,Ciudad,Die,Stadt
+589,Lugar,Die,Stelle
+590,Impuesto,Die,Steuer
+591,Calle,Die,Straße
+592,Tranvía,Die,Straßenbahn
+593,Hora,Die,Stunde
+594,Sopa,Die,Suppe
+595,Gasolinera,Die,Tankstelle
+596,Bolsa,Die,Tasche
+597,Taza,Die,Tasse
+598,Hija,Die,Tochter
+599,Baño,Die,Toilette
+600,Tomate,Die,Tomate
+601,Escalera,Die,Treppe
+602,Puerta,Die,Tür
+603,Bolso,Die,Tüte
+604,Subte,Die,U-Bahn
+605,Reloj,Die,Uhr
+606,Universidad,Die,Universität
+607,Alojamiento,Die,Unterkunft
+608,Firma,Die,Unterschrift
+609,Investigación,Die,Untersuchung
+610,Conexión,Die,Verbindung
+611,Seguro,Die,Versicherung
+612,Retraso,Die,Verspätung
+613,Atención,Die,Vorsicht
+614,Característica,Die,Vorwahl
+615,Lavandería,Die,Wäsche
+616,Mundo,Die,Welt
+617,Taller,Die,Werkstatt
+618,Economía,Die,Wirtschaft
+619,Departamento,Die,Wohnung
+620,Nube,Die,Wolke
+621,Salchicha,Die,Wurst
+622,Número,Die,Zahl
+623,Tiempo,Die,Zeit
+624,Revista,Die,Zeitschrift
+625,Periódico,Die,Zeitung
+626,Cigarillo,Die,Zigarette
+627,Limón,Die,Zitrone
